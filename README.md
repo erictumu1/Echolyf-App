@@ -1,4 +1,4 @@
-# flutter_application_1
+# EchoLyf
 
 A new Flutter project.
 
