@@ -10,18 +10,18 @@ com.example.flutter_application_1.app-lifecycle-runtime-2.3.1-8 C:\Users\ERIC TU
 com.example.flutter_application_1.app-webkit-1.5.0-9 C:\Users\ERIC TUMU\.gradle\caches\transforms-3\dfd1bfa6ed8bd8b9f2573294e5705c58\transformed\webkit-1.5.0\res
 com.example.flutter_application_1.app-browser-1.5.0-10 C:\Users\ERIC TUMU\.gradle\caches\transforms-3\e00f945599a9f8f07ceca9345652e5ec\transformed\browser-1.5.0\res
 com.example.flutter_application_1.app-jetified-media2-common-1.2.1-11 C:\Users\ERIC TUMU\.gradle\caches\transforms-3\fe6d816c23e528cb8b2e2b93f6d1e2db\transformed\jetified-media2-common-1.2.1\res
-com.example.flutter_application_1.app-debug-12 C:\myapps\MusicApp\android\app\src\debug\res
-com.example.flutter_application_1.app-main-13 C:\myapps\MusicApp\android\app\src\main\res
-com.example.flutter_application_1.app-pngs-14 C:\myapps\MusicApp\build\app\generated\res\pngs\debug
-com.example.flutter_application_1.app-resValues-15 C:\myapps\MusicApp\build\app\generated\res\resValues\debug
-com.example.flutter_application_1.app-rs-16 C:\myapps\MusicApp\build\app\generated\res\rs\debug
-com.example.flutter_application_1.app-mergeDebugResources-17 C:\myapps\MusicApp\build\app\intermediates\incremental\debug\mergeDebugResources\merged.dir
-com.example.flutter_application_1.app-mergeDebugResources-18 C:\myapps\MusicApp\build\app\intermediates\incremental\debug\mergeDebugResources\stripped.dir
-com.example.flutter_application_1.app-merged_res-19 C:\myapps\MusicApp\build\app\intermediates\merged_res\debug
-com.example.flutter_application_1.app-packaged_res-20 C:\myapps\MusicApp\build\audio_session\intermediates\packaged_res\debug
-com.example.flutter_application_1.app-packaged_res-21 C:\myapps\MusicApp\build\audioplayers_android\intermediates\packaged_res\debug
-com.example.flutter_application_1.app-packaged_res-22 C:\myapps\MusicApp\build\just_audio\intermediates\packaged_res\debug
-com.example.flutter_application_1.app-packaged_res-23 C:\myapps\MusicApp\build\path_provider_android\intermediates\packaged_res\debug
-com.example.flutter_application_1.app-packaged_res-24 C:\myapps\MusicApp\build\permission_handler_android\intermediates\packaged_res\debug
-com.example.flutter_application_1.app-packaged_res-25 C:\myapps\MusicApp\build\url_launcher_android\intermediates\packaged_res\debug
-com.example.flutter_application_1.app-packaged_res-26 C:\myapps\MusicApp\build\webview_flutter_android\intermediates\packaged_res\debug
+com.example.flutter_application_1.app-debug-12 C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\debug\res
+com.example.flutter_application_1.app-main-13 C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\main\res
+com.example.flutter_application_1.app-pngs-14 C:\Users\ERIC TUMU\Desktop\Echolyf\build\app\generated\res\pngs\debug
+com.example.flutter_application_1.app-resValues-15 C:\Users\ERIC TUMU\Desktop\Echolyf\build\app\generated\res\resValues\debug
+com.example.flutter_application_1.app-rs-16 C:\Users\ERIC TUMU\Desktop\Echolyf\build\app\generated\res\rs\debug
+com.example.flutter_application_1.app-mergeDebugResources-17 C:\Users\ERIC TUMU\Desktop\Echolyf\build\app\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.example.flutter_application_1.app-mergeDebugResources-18 C:\Users\ERIC TUMU\Desktop\Echolyf\build\app\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.example.flutter_application_1.app-merged_res-19 C:\Users\ERIC TUMU\Desktop\Echolyf\build\app\intermediates\merged_res\debug
+com.example.flutter_application_1.app-packaged_res-20 C:\Users\ERIC TUMU\Desktop\Echolyf\build\audio_session\intermediates\packaged_res\debug
+com.example.flutter_application_1.app-packaged_res-21 C:\Users\ERIC TUMU\Desktop\Echolyf\build\audioplayers_android\intermediates\packaged_res\debug
+com.example.flutter_application_1.app-packaged_res-22 C:\Users\ERIC TUMU\Desktop\Echolyf\build\just_audio\intermediates\packaged_res\debug
+com.example.flutter_application_1.app-packaged_res-23 C:\Users\ERIC TUMU\Desktop\Echolyf\build\path_provider_android\intermediates\packaged_res\debug
+com.example.flutter_application_1.app-packaged_res-24 C:\Users\ERIC TUMU\Desktop\Echolyf\build\permission_handler_android\intermediates\packaged_res\debug
+com.example.flutter_application_1.app-packaged_res-25 C:\Users\ERIC TUMU\Desktop\Echolyf\build\url_launcher_android\intermediates\packaged_res\debug
+com.example.flutter_application_1.app-packaged_res-26 C:\Users\ERIC TUMU\Desktop\Echolyf\build\webview_flutter_android\intermediates\packaged_res\debug

@@ -13,8 +13,8 @@
 13         to allow setting breakpoints, to provide hot reload, etc.
 14    -->
 15    <uses-permission android:name="android.permission.INTERNET" />
-15-->C:\myapps\MusicApp\android\app\src\debug\AndroidManifest.xml:6:5-66
-15-->C:\myapps\MusicApp\android\app\src\debug\AndroidManifest.xml:6:22-64
+15-->C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\debug\AndroidManifest.xml:6:5-66
+15-->C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\debug\AndroidManifest.xml:6:22-64
 16    <!--
 17     Required to query activities that can process text, see:
 18         https://developer.android.com/training/package-visibility and
@@ -23,16 +23,16 @@
 21         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
 22    -->
 23    <queries>
-23-->C:\myapps\MusicApp\android\app\src\main\AndroidManifest.xml:39:5-44:15
+23-->C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\main\AndroidManifest.xml:39:5-44:15
 24        <intent>
-24-->C:\myapps\MusicApp\android\app\src\main\AndroidManifest.xml:40:9-43:18
+24-->C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\main\AndroidManifest.xml:40:9-43:18
 25            <action android:name="android.intent.action.PROCESS_TEXT" />
-25-->C:\myapps\MusicApp\android\app\src\main\AndroidManifest.xml:41:13-72
-25-->C:\myapps\MusicApp\android\app\src\main\AndroidManifest.xml:41:21-70
+25-->C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\main\AndroidManifest.xml:41:13-72
+25-->C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\main\AndroidManifest.xml:41:21-70
 26
 27            <data android:mimeType="text/plain" />
-27-->C:\myapps\MusicApp\android\app\src\main\AndroidManifest.xml:42:13-50
-27-->C:\myapps\MusicApp\android\app\src\main\AndroidManifest.xml:42:19-48
+27-->C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\main\AndroidManifest.xml:42:13-50
+27-->C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\main\AndroidManifest.xml:42:19-48
 28        </intent>
 29        <intent>
 29-->[androidx.media2:media2-session:1.2.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\afe748b872577969c553c03462be1642\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:25:9-27:18
@@ -111,13 +111,13 @@
 86            android:value="2" />
 87
 88        <activity
-88-->[:url_launcher_android] C:\myapps\MusicApp\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-13:74
+88-->[:url_launcher_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-13:74
 89            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
-89-->[:url_launcher_android] C:\myapps\MusicApp\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
+89-->[:url_launcher_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
 90            android:exported="false"
-90-->[:url_launcher_android] C:\myapps\MusicApp\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+90-->[:url_launcher_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
 91            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-91-->[:url_launcher_android] C:\myapps\MusicApp\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-71
+91-->[:url_launcher_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-71
 92
 93        <uses-library
 93-->[androidx.window:window:1.0.0-beta04] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\862f900574f1ff85594dddb260956b71\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
