@@ -147,58 +147,59 @@ class _HomescreenState extends State<Homescreen> with TickerProviderStateMixin {
           color: Colors.orange[900],
           child: articles.isEmpty
               ? Center(
-                  child: CircularProgressIndicator(
-                  color: Colors.orange[900],
-                ))
+              child: CircularProgressIndicator(
+                color: Colors.orange[900],
+              ))
               : ListView.builder(
               itemCount: articles.length,
               itemBuilder: (context, index) {
-                    final track = tracks[index];
-                    final album = albums[0];
-                    final article = articles[index];
-                    return Card(
-                        margin: EdgeInsets.all(1),
-                        color: Colors.black,
-                        child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Padding(
-                                padding: EdgeInsets.all(8),
-                                child: Text(
-                                  article['title'] ?? '',
-                                  style: TextStyle(
-                                    fontSize: 18,
-                                    fontWeight: FontWeight.bold,
-                                    color: Colors.orange[900],
-                                  ),
-                                ),
-                              ),
-                              if (article['urlToImage'] != null)
-                                Image.network(article['urlToImage']),
-                              Padding(
-                                padding:
-                                    const EdgeInsets.symmetric(horizontal: 8.0),
-                                child: Text(
-                                  article['description'] ?? '',
-                                  style: TextStyle(
-                                    fontSize: 16,
-                                    color: Colors.white,
-                                  ),
-                                ),
-                              ),
-                              Padding(
-                                  padding: const EdgeInsets.all(8.0),
-                                  child: Text(
-                                    article['publishedAt'] ?? '',
-                                    style: TextStyle(
-                                        fontSize: 14,
-                                        color: Colors.orange[900]),
-                                  )),
-                              SizedBox(
-                                height: 20.0,
-                              ),
-                            ]));
-                  }),
+                final article = articles[index];
+
+                return Card(
+                  margin: EdgeInsets.all(1),
+                  color: Colors.black,
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Padding(
+                        padding: EdgeInsets.all(8),
+                        child: Text(
+                          article['title'] ?? '',
+                          style: TextStyle(
+                            fontSize: 18,
+                            fontWeight: FontWeight.bold,
+                            color: Colors.orange[900],
+                          ),
+                        ),
+                      ),
+                      if (article['urlToImage'] != null)
+                        Image.network(article['urlToImage']),
+                      Padding(
+                        padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                        child: Text(
+                          article['description'] ?? '',
+                          style: TextStyle(
+                            fontSize: 16,
+                            color: Colors.white,
+                          ),
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Text(
+                          article['publishedAt'] ?? '',
+                          style: TextStyle(
+                              fontSize: 14,
+                              color: Colors.orange[900]),
+                        ),
+                      ),
+                      SizedBox(
+                        height: 20.0,
+                      ),
+                    ],
+                  ),
+                );
+              }),
         ),
         bottomNavigationBar: BottomNavigationBar(
           items: <BottomNavigationBarItem>[
