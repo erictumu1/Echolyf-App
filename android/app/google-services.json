@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "285608597055",
+    "project_id": "bayshore-library",
+    "storage_bucket": "bayshore-library.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285608597055:android:03f87532f4e49a95368a8a",
+        "android_client_info": {
+          "package_name": "com.example.library_front_end"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtN8q0nl4U40iZEF2mFRA9k3_Oxe3OwI4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

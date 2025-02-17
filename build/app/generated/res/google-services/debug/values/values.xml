@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">285608597055</string>
+    <string name="google_api_key" translatable="false">AIzaSyCtN8q0nl4U40iZEF2mFRA9k3_Oxe3OwI4</string>
+    <string name="google_app_id" translatable="false">1:285608597055:android:03f87532f4e49a95368a8a</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCtN8q0nl4U40iZEF2mFRA9k3_Oxe3OwI4</string>
+    <string name="google_storage_bucket" translatable="false">bayshore-library.firebasestorage.app</string>
+    <string name="project_id" translatable="false">bayshore-library</string>
+</resources>

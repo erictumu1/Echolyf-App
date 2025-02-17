@@ -1,9 +1,18 @@
-com.example.flutter_application_1
+com.example.library_front_end
+anim fragment_fast_out_extra_slow_in
+animator fragment_close_enter
+animator fragment_close_exit
+animator fragment_fade_enter
+animator fragment_fade_exit
+animator fragment_open_enter
+animator fragment_open_exit
 attr activityAction
 attr activityName
 attr alpha
 attr alwaysExpand
+attr animationBackgroundColor
 attr clearTop
+attr finishPrimaryWithPlaceholder
 attr finishPrimaryWithSecondary
 attr finishSecondaryWithPrimary
 attr font
@@ -26,9 +35,14 @@ attr secondaryActivityAction
 attr secondaryActivityName
 attr shortcutMatchRequired
 attr splitLayoutDirection
-attr splitMinSmallestWidth
-attr splitMinWidth
+attr splitMaxAspectRatioInLandscape
+attr splitMaxAspectRatioInPortrait
+attr splitMinHeightDp
+attr splitMinSmallestWidthDp
+attr splitMinWidthDp
 attr splitRatio
+attr stickyPlaceholder
+attr tag
 attr ttcIndex
 color androidx_core_ripple_material_light
 color androidx_core_secondary_text_default_material_light
@@ -74,11 +88,6 @@ drawable ic_call_answer_video_low
 drawable ic_call_decline
 drawable ic_call_decline_low
 drawable launch_background
-drawable media_session_service_notification_ic_music_note
-drawable media_session_service_notification_ic_pause
-drawable media_session_service_notification_ic_play
-drawable media_session_service_notification_ic_skip_to_next
-drawable media_session_service_notification_ic_skip_to_previous
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -87,6 +96,7 @@ drawable notification_bg_low_pressed
 drawable notification_bg_normal
 drawable notification_bg_normal_pressed
 drawable notification_icon_background
+drawable notification_oversize_large_icon_bg
 drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
@@ -130,9 +140,14 @@ id action_divider
 id action_image
 id action_text
 id actions
+id adjacent
+id always
+id alwaysAllow
+id alwaysDisallow
 id androidx_window_activity_scope
 id async
 id blocking
+id bottomToTop
 id browser_actions_header_text
 id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
@@ -141,8 +156,11 @@ id browser_actions_menu_view
 id cancel_action
 id chronometer
 id dialog_button
+id edit_text_id
 id end_padder
 id forever
+id fragment_container_view_tag
+id hide_ime_id
 id icon
 id icon_group
 id info
@@ -153,13 +171,16 @@ id locale
 id ltr
 id media_actions
 id media_controller_compat_view_tag
+id never
 id normal
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id report_drawn
 id right_icon
 id right_side
 id rtl
+id special_effects_controller_view_tag
 id status_bar_latest_event_content
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -178,12 +199,19 @@ id text
 id text2
 id time
 id title
+id topToBottom
 id view_tree_lifecycle_owner
+id view_tree_on_back_pressed_dispatcher_owner
+id view_tree_saved_state_registry_owner
+id view_tree_view_model_store_owner
+id visible_removing_fragment_view_tag
 integer cancel_button_image_alpha
 integer status_bar_notification_info_maxnum
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog
+layout ime_base_split_test_activity
+layout ime_secondary_split_test_activity
 layout notification_action
 layout notification_action_tombstone
 layout notification_media_action
@@ -200,6 +228,7 @@ layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
 mipmap ic_launcher
+string androidx_startup
 string call_notification_answer_action
 string call_notification_answer_video_action
 string call_notification_decline_action
@@ -208,7 +237,6 @@ string call_notification_incoming_text
 string call_notification_ongoing_text
 string call_notification_screening_text
 string copy_toast_msg
-string default_notification_channel_name
 string exo_download_completed
 string exo_download_description
 string exo_download_downloading
@@ -221,10 +249,12 @@ string exo_download_removing
 string fallback_menu_item_copy_link
 string fallback_menu_item_open_in_browser
 string fallback_menu_item_share_link
-string pause_button_content_description
-string play_button_content_description
-string skip_to_next_item_button_content_description
-string skip_to_previous_item_button_content_description
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
+string project_id
 string status_bar_notification_info_overflow
 style LaunchTheme
 style NormalTheme
@@ -241,14 +271,16 @@ style TextAppearance_Compat_Notification_Title_Media
 style Widget_Compat_NotificationActionContainer
 style Widget_Compat_NotificationActionText
 styleable ActivityFilter activityAction activityName
-styleable ActivityRule alwaysExpand
+styleable ActivityRule alwaysExpand tag
 styleable Capability queryPatterns shortcutMatchRequired
 styleable ColorStateListItem android_color android_alpha android_lStar alpha lStar
 styleable FontFamily fontProviderAuthority fontProviderCerts fontProviderFetchStrategy fontProviderFetchTimeout fontProviderPackage fontProviderQuery fontProviderSystemFontFamily
 styleable FontFamilyFont android_font android_fontWeight android_fontStyle android_ttcIndex android_fontVariationSettings font fontStyle fontVariationSettings fontWeight ttcIndex
+styleable Fragment android_name android_id android_tag
+styleable FragmentContainerView android_name android_tag
 styleable GradientColor android_startColor android_endColor android_type android_centerX android_centerY android_gradientRadius android_tileMode android_centerColor android_startX android_startY android_endX android_endY
 styleable GradientColorItem android_color android_offset
 styleable SplitPairFilter primaryActivityName secondaryActivityAction secondaryActivityName
-styleable SplitPairRule clearTop finishPrimaryWithSecondary finishSecondaryWithPrimary splitLayoutDirection splitMinSmallestWidth splitMinWidth splitRatio
-styleable SplitPlaceholderRule placeholderActivityName splitLayoutDirection splitMinSmallestWidth splitMinWidth splitRatio
+styleable SplitPairRule animationBackgroundColor clearTop finishPrimaryWithSecondary finishSecondaryWithPrimary splitLayoutDirection splitMaxAspectRatioInLandscape splitMaxAspectRatioInPortrait splitMinHeightDp splitMinSmallestWidthDp splitMinWidthDp splitRatio tag
+styleable SplitPlaceholderRule animationBackgroundColor finishPrimaryWithPlaceholder placeholderActivityName splitLayoutDirection splitMaxAspectRatioInLandscape splitMaxAspectRatioInPortrait splitMinHeightDp splitMinSmallestWidthDp splitMinWidthDp splitRatio stickyPlaceholder tag
 xml image_share_filepaths

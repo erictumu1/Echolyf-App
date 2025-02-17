@@ -1,87 +1,88 @@
 -- Merging decision tree log ---
 application
 INJECTED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\main\AndroidManifest.xml:2:5-33:19
-MERGED from [:url_launcher_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-14:19
-MERGED from [:url_launcher_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-14:19
-MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\862f900574f1ff85594dddb260956b71\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
-MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\862f900574f1ff85594dddb260956b71\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
-MERGED from [androidx.core:core:1.10.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\65c8a202e60a6c8a7f255966fd965a79\transformed\core-1.10.1\AndroidManifest.xml:28:5-89
-MERGED from [androidx.core:core:1.10.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\65c8a202e60a6c8a7f255966fd965a79\transformed\core-1.10.1\AndroidManifest.xml:28:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\7d6aeb3916dfe9c6c7669d94ac03dc5c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\7d6aeb3916dfe9c6c7669d94ac03dc5c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+INJECTED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\debug\AndroidManifest.xml
+MERGED from [:url_launcher_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-12:19
+MERGED from [:url_launcher_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-12:19
+MERGED from [androidx.window:window:1.2.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\b61292485483c7499e83c4f5c6f9bd1a\transformed\jetified-window-1.2.0\AndroidManifest.xml:22:5-29:19
+MERGED from [androidx.window:window:1.2.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\b61292485483c7499e83c4f5c6f9bd1a\transformed\jetified-window-1.2.0\AndroidManifest.xml:22:5-29:19
+MERGED from [androidx.core:core:1.13.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\4cefa050b0c4ea9b1f45909d19944071\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\4cefa050b0c4ea9b1f45909d19944071\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\a4def40035927cb6d856303427b50933\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\a4def40035927cb6d856303427b50933\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\6e8db5a03ecfd4c7003ff52b19d087f7\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\6e8db5a03ecfd4c7003ff52b19d087f7\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\4f34d054faf5cddb02c25f64f9725e9c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\4f34d054faf5cddb02c25f64f9725e9c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\debug\AndroidManifest.xml
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.10.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\65c8a202e60a6c8a7f255966fd965a79\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+		ADDED from [androidx.core:core:1.13.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\4cefa050b0c4ea9b1f45909d19944071\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
 	android:name
 		INJECTED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\main\AndroidManifest.xml
 manifest
 ADDED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\main\AndroidManifest.xml:1:1-45:12
-INJECTED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\main\AndroidManifest.xml:1:1-45:12
-INJECTED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\main\AndroidManifest.xml:1:1-45:12
-INJECTED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\main\AndroidManifest.xml:1:1-45:12
 MERGED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\main\AndroidManifest.xml:1:1-45:12
-MERGED from [:just_audio] C:\Users\ERIC TUMU\Desktop\Echolyf\build\just_audio\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:audio_session] C:\Users\ERIC TUMU\Desktop\Echolyf\build\audio_session\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:audioplayers_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\audioplayers_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-11:12
-MERGED from [:path_provider_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:permission_handler_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\permission_handler_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:url_launcher_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-16:12
-MERGED from [:webview_flutter_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\webview_flutter_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\48e981a0346d31a6e8dc703f93aac46b\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:17:1-23:12
-MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\862f900574f1ff85594dddb260956b71\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.media2:media2-session:1.2.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\afe748b872577969c553c03462be1642\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:17:1-36:12
-MERGED from [com.google.android.exoplayer:exoplayer-dash:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\b3789a3d4fdffe6e9873d65648468b2d\transformed\jetified-exoplayer-dash-2.18.7\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.exoplayer:exoplayer-hls:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\ab9c54c7e5f13810d88f3d6b97b1d2c6\transformed\jetified-exoplayer-hls-2.18.7\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\498ad77392cf9c6ea5b42e9d0dcfe239\transformed\jetified-exoplayer-smoothstreaming-2.18.7\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\15a9b7d4241508eadf9c5386304b9556\transformed\jetified-exoplayer-core-2.18.7\AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.browser:browser:1.5.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\e00f945599a9f8f07ceca9345652e5ec\transformed\browser-1.5.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.webkit:webkit:1.5.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\dfd1bfa6ed8bd8b9f2573294e5705c58\transformed\webkit-1.5.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\8e23ce6bfe9f7f34b0dc1e6ec6f03478\transformed\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.media2:media2-common:1.2.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\fe6d816c23e528cb8b2e2b93f6d1e2db\transformed\jetified-media2-common-1.2.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\221bed7aeeedfb804a895d08e6247eb7\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\4fecee525f03d4d9acab473c6b8c79d6\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\7d403e162dc88cffd2dee264c821e027\transformed\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.media:media:1.4.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\7237ff9b9069df6e6de2dad3e855c268\transformed\media-1.4.1\AndroidManifest.xml:17:1-30:12
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\aeba69d0afd9047671d0cb7aa4e68b9c\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.10.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\65c8a202e60a6c8a7f255966fd965a79\transformed\core-1.10.1\AndroidManifest.xml:17:1-30:12
-MERGED from [androidx.core:core-ktx:1.10.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\39b9b8901637e593098bfbd4dd64c07d\transformed\jetified-core-ktx-1.10.1\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\2ce306676934493850a3124318829f13\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\7d6aeb3916dfe9c6c7669d94ac03dc5c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
-MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\dedd1e9f623db1cdf65399d4a0ee7107\transformed\jetified-exoplayer-datasource-2.18.7\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\f9edd53fb66a4e7b18db555ac4b0fec2\transformed\jetified-exoplayer-extractor-2.18.7\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\1943dbafe42d2dd7cb65801a4e07ab55\transformed\jetified-exoplayer-decoder-2.18.7\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.exoplayer:exoplayer-database:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\67f04e9b6b6b3f3582cbd0fe1c8c740c\transformed\jetified-exoplayer-database-2.18.7\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\cd026fcca2fcf2f846e76138cc1d7cd1\transformed\jetified-exoplayer-common-2.18.7\AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\dc96645c306059833bc1893768a78704\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\58ebe2581b7625b7225aa5637eb13ffc\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\d35d0281a4cfe80614e760ae998be98f\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\b27e91d3f3f6d8e32081b535ef46da64\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\e8952407046591f4524c1f4f8d06f3d4\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\3d3287ed5958132b93cc31ddecd4f75f\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\477aac55d5b879ad9d541132314870f9\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\a8c635db0cad0bd46614bade29b5fa1b\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
 INJECTED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 INJECTED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 INJECTED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+MERGED from [:just_audio] C:\Users\ERIC TUMU\Desktop\Echolyf\build\just_audio\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:audio_session] C:\Users\ERIC TUMU\Desktop\Echolyf\build\audio_session\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:audioplayers_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\audioplayers_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:path_provider_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:permission_handler_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\permission_handler_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:url_launcher_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-14:12
+MERGED from [:webview_flutter_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\webview_flutter_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.media:media:1.7.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\938bc3ae501b04263670d4e01a99e5f4\transformed\media-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\bb5ec6eaf8918d7a8a2b04e6e067b636\transformed\jetified-exoplayer-dash-2.18.7\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\f6246349c5ed2ace9218a9a473da5ec7\transformed\jetified-exoplayer-hls-2.18.7\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\31e7a32d3f1c357a58906051f2f782bf\transformed\jetified-exoplayer-smoothstreaming-2.18.7\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\7b063859b2a2446f579426dd50d93b94\transformed\jetified-exoplayer-core-2.18.7\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.browser:browser:1.8.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\5fd828c943c2aae4856e4aa49ae40e71\transformed\browser-1.8.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.webkit:webkit:1.12.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\09a4e8ad0b6664d35f68e2ee5870df27\transformed\webkit-1.12.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.window:window:1.2.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\b61292485483c7499e83c4f5c6f9bd1a\transformed\jetified-window-1.2.0\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.window:window-java:1.2.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\3d0412389d2966e83c19c51ceeb7e70b\transformed\jetified-window-java-1.2.0\AndroidManifest.xml:17:1-21:12
+MERGED from [androidx.fragment:fragment:1.7.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\34b9e8114ed50492479eb875aa77a652\transformed\fragment-1.7.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.8.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\9f8229ee71e2110416b6e261a05d3650\transformed\jetified-activity-1.8.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\03c7b3febc932f4073d82a9b01455447\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\2104f0fea03419252de5cb865bc33137\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\63159449652579a22ad00eeda6a72c63\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\d69b771f4769b70dad1852df9d1e5343\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\f2c6006284de8fdbb59e6433bd7df941\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\a6ab75c46c16bb6c7a3c9df5177c45de\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\4f2a8bc6baae5594059dcb4a3fa298d0\transformed\jetified-core-ktx-1.13.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\f69c2d192104035d19d3a649bbec7ef5\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\c0c8717ff98a4860600fb9f4afbc8274\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.13.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\4cefa050b0c4ea9b1f45909d19944071\transformed\core-1.13.1\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\8f08a4fb8a82b417cfcc866aaaa248aa\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\a4def40035927cb6d856303427b50933\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\47338bbf8f160d000bb980bbb8741b0a\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\6e8db5a03ecfd4c7003ff52b19d087f7\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\ad98be4a1c53e6a1e097edbfc577b62d\transformed\jetified-tracing-1.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\4f34d054faf5cddb02c25f64f9725e9c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\825cc21b33457948f59b2dbf990e6567\transformed\jetified-exoplayer-datasource-2.18.7\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\85d60d3fa3267e59e5c5afe8fee92a67\transformed\jetified-exoplayer-extractor-2.18.7\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\5f3d3362e9f95a7fbceda44ee9afc466\transformed\jetified-exoplayer-decoder-2.18.7\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\97656ea1bc974e7a6e7a756e4a7dc6f7\transformed\jetified-exoplayer-database-2.18.7\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\e09a5d2042c582f80ad9ae7eb9ce66fa\transformed\jetified-exoplayer-common-2.18.7\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\0df862a5e2dddb56997c4d71947dd657\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\2b8e54d31a141f3ff6ff893fb8611721\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.window.extensions.core:core:1.0.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\2815729b64a2990afe5a146eebbdb448\transformed\jetified-core-1.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\f4472c37f546a87b0ba32bf3154e395c\transformed\jetified-annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\da50c5b36bbd34a739a2a3b3344ce135\transformed\jetified-relinker-1.4.5\AndroidManifest.xml:2:1-7:12
 	package
-		INJECTED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\main\AndroidManifest.xml:1:1-45:12
 		INJECTED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\debug\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\main\AndroidManifest.xml:1:1-45:12
 		INJECTED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\debug\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\main\AndroidManifest.xml:1:1-45:12
 		INJECTED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\debug\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\main\AndroidManifest.xml:1:11-69
 queries
 ADDED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\main\AndroidManifest.xml:39:5-44:15
-MERGED from [androidx.media2:media2-session:1.2.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\afe748b872577969c553c03462be1642\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:24:5-34:15
-MERGED from [androidx.media2:media2-session:1.2.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\afe748b872577969c553c03462be1642\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:24:5-34:15
-MERGED from [androidx.media:media:1.4.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\7237ff9b9069df6e6de2dad3e855c268\transformed\media-1.4.1\AndroidManifest.xml:24:5-28:15
-MERGED from [androidx.media:media:1.4.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\7237ff9b9069df6e6de2dad3e855c268\transformed\media-1.4.1\AndroidManifest.xml:24:5-28:15
 intent#action:name:android.intent.action.PROCESS_TEXT+data:mimeType:text/plain
 ADDED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\main\AndroidManifest.xml:40:9-43:18
 action#android.intent.action.PROCESS_TEXT
@@ -92,163 +93,213 @@ data
 ADDED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\main\AndroidManifest.xml:42:13-50
 	android:mimeType
 		ADDED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\main\AndroidManifest.xml:42:19-48
-uses-sdk
-INJECTED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\main\AndroidManifest.xml
-MERGED from [:just_audio] C:\Users\ERIC TUMU\Desktop\Echolyf\build\just_audio\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:just_audio] C:\Users\ERIC TUMU\Desktop\Echolyf\build\just_audio\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:audio_session] C:\Users\ERIC TUMU\Desktop\Echolyf\build\audio_session\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:audio_session] C:\Users\ERIC TUMU\Desktop\Echolyf\build\audio_session\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:audioplayers_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\audioplayers_android\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:audioplayers_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\audioplayers_android\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:path_provider_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:path_provider_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:permission_handler_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\permission_handler_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:permission_handler_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\permission_handler_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:url_launcher_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:url_launcher_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:webview_flutter_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\webview_flutter_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:webview_flutter_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\webview_flutter_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\48e981a0346d31a6e8dc703f93aac46b\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
-MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\48e981a0346d31a6e8dc703f93aac46b\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
-MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\862f900574f1ff85594dddb260956b71\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\862f900574f1ff85594dddb260956b71\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.media2:media2-session:1.2.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\afe748b872577969c553c03462be1642\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.media2:media2-session:1.2.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\afe748b872577969c553c03462be1642\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-dash:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\b3789a3d4fdffe6e9873d65648468b2d\transformed\jetified-exoplayer-dash-2.18.7\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-dash:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\b3789a3d4fdffe6e9873d65648468b2d\transformed\jetified-exoplayer-dash-2.18.7\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-hls:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\ab9c54c7e5f13810d88f3d6b97b1d2c6\transformed\jetified-exoplayer-hls-2.18.7\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-hls:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\ab9c54c7e5f13810d88f3d6b97b1d2c6\transformed\jetified-exoplayer-hls-2.18.7\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\498ad77392cf9c6ea5b42e9d0dcfe239\transformed\jetified-exoplayer-smoothstreaming-2.18.7\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\498ad77392cf9c6ea5b42e9d0dcfe239\transformed\jetified-exoplayer-smoothstreaming-2.18.7\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\15a9b7d4241508eadf9c5386304b9556\transformed\jetified-exoplayer-core-2.18.7\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\15a9b7d4241508eadf9c5386304b9556\transformed\jetified-exoplayer-core-2.18.7\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.browser:browser:1.5.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\e00f945599a9f8f07ceca9345652e5ec\transformed\browser-1.5.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.browser:browser:1.5.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\e00f945599a9f8f07ceca9345652e5ec\transformed\browser-1.5.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.webkit:webkit:1.5.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\dfd1bfa6ed8bd8b9f2573294e5705c58\transformed\webkit-1.5.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.webkit:webkit:1.5.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\dfd1bfa6ed8bd8b9f2573294e5705c58\transformed\webkit-1.5.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\8e23ce6bfe9f7f34b0dc1e6ec6f03478\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\8e23ce6bfe9f7f34b0dc1e6ec6f03478\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.media2:media2-common:1.2.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\fe6d816c23e528cb8b2e2b93f6d1e2db\transformed\jetified-media2-common-1.2.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.media2:media2-common:1.2.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\fe6d816c23e528cb8b2e2b93f6d1e2db\transformed\jetified-media2-common-1.2.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\221bed7aeeedfb804a895d08e6247eb7\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\221bed7aeeedfb804a895d08e6247eb7\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\4fecee525f03d4d9acab473c6b8c79d6\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\4fecee525f03d4d9acab473c6b8c79d6\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\7d403e162dc88cffd2dee264c821e027\transformed\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\7d403e162dc88cffd2dee264c821e027\transformed\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.media:media:1.4.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\7237ff9b9069df6e6de2dad3e855c268\transformed\media-1.4.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.media:media:1.4.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\7237ff9b9069df6e6de2dad3e855c268\transformed\media-1.4.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\aeba69d0afd9047671d0cb7aa4e68b9c\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\aeba69d0afd9047671d0cb7aa4e68b9c\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.10.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\65c8a202e60a6c8a7f255966fd965a79\transformed\core-1.10.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.10.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\65c8a202e60a6c8a7f255966fd965a79\transformed\core-1.10.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core-ktx:1.10.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\39b9b8901637e593098bfbd4dd64c07d\transformed\jetified-core-ktx-1.10.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core-ktx:1.10.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\39b9b8901637e593098bfbd4dd64c07d\transformed\jetified-core-ktx-1.10.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\2ce306676934493850a3124318829f13\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\2ce306676934493850a3124318829f13\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\7d6aeb3916dfe9c6c7669d94ac03dc5c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\7d6aeb3916dfe9c6c7669d94ac03dc5c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\dedd1e9f623db1cdf65399d4a0ee7107\transformed\jetified-exoplayer-datasource-2.18.7\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\dedd1e9f623db1cdf65399d4a0ee7107\transformed\jetified-exoplayer-datasource-2.18.7\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\f9edd53fb66a4e7b18db555ac4b0fec2\transformed\jetified-exoplayer-extractor-2.18.7\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\f9edd53fb66a4e7b18db555ac4b0fec2\transformed\jetified-exoplayer-extractor-2.18.7\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\1943dbafe42d2dd7cb65801a4e07ab55\transformed\jetified-exoplayer-decoder-2.18.7\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\1943dbafe42d2dd7cb65801a4e07ab55\transformed\jetified-exoplayer-decoder-2.18.7\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-database:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\67f04e9b6b6b3f3582cbd0fe1c8c740c\transformed\jetified-exoplayer-database-2.18.7\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-database:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\67f04e9b6b6b3f3582cbd0fe1c8c740c\transformed\jetified-exoplayer-database-2.18.7\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\cd026fcca2fcf2f846e76138cc1d7cd1\transformed\jetified-exoplayer-common-2.18.7\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\cd026fcca2fcf2f846e76138cc1d7cd1\transformed\jetified-exoplayer-common-2.18.7\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\dc96645c306059833bc1893768a78704\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\dc96645c306059833bc1893768a78704\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\58ebe2581b7625b7225aa5637eb13ffc\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\58ebe2581b7625b7225aa5637eb13ffc\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\d35d0281a4cfe80614e760ae998be98f\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\d35d0281a4cfe80614e760ae998be98f\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\b27e91d3f3f6d8e32081b535ef46da64\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\b27e91d3f3f6d8e32081b535ef46da64\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\e8952407046591f4524c1f4f8d06f3d4\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\e8952407046591f4524c1f4f8d06f3d4\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\3d3287ed5958132b93cc31ddecd4f75f\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\3d3287ed5958132b93cc31ddecd4f75f\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\477aac55d5b879ad9d541132314870f9\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\477aac55d5b879ad9d541132314870f9\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\a8c635db0cad0bd46614bade29b5fa1b\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\a8c635db0cad0bd46614bade29b5fa1b\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\debug\AndroidManifest.xml
-INJECTED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\debug\AndroidManifest.xml
-	android:targetSdkVersion
-		INJECTED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\debug\AndroidManifest.xml
-	android:minSdkVersion
-		INJECTED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\debug\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
 ADDED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\debug\AndroidManifest.xml:6:5-66
 	android:name
 		ADDED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\debug\AndroidManifest.xml:6:22-64
+uses-sdk
+INJECTED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\debug\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\debug\AndroidManifest.xml
+INJECTED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\debug\AndroidManifest.xml
+MERGED from [:just_audio] C:\Users\ERIC TUMU\Desktop\Echolyf\build\just_audio\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:just_audio] C:\Users\ERIC TUMU\Desktop\Echolyf\build\just_audio\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:audio_session] C:\Users\ERIC TUMU\Desktop\Echolyf\build\audio_session\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:audio_session] C:\Users\ERIC TUMU\Desktop\Echolyf\build\audio_session\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:audioplayers_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\audioplayers_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:audioplayers_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\audioplayers_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\permission_handler_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\permission_handler_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:webview_flutter_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\webview_flutter_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:webview_flutter_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\webview_flutter_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [androidx.media:media:1.7.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\938bc3ae501b04263670d4e01a99e5f4\transformed\media-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.media:media:1.7.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\938bc3ae501b04263670d4e01a99e5f4\transformed\media-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\bb5ec6eaf8918d7a8a2b04e6e067b636\transformed\jetified-exoplayer-dash-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\bb5ec6eaf8918d7a8a2b04e6e067b636\transformed\jetified-exoplayer-dash-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\f6246349c5ed2ace9218a9a473da5ec7\transformed\jetified-exoplayer-hls-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\f6246349c5ed2ace9218a9a473da5ec7\transformed\jetified-exoplayer-hls-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\31e7a32d3f1c357a58906051f2f782bf\transformed\jetified-exoplayer-smoothstreaming-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\31e7a32d3f1c357a58906051f2f782bf\transformed\jetified-exoplayer-smoothstreaming-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\7b063859b2a2446f579426dd50d93b94\transformed\jetified-exoplayer-core-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\7b063859b2a2446f579426dd50d93b94\transformed\jetified-exoplayer-core-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.8.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\5fd828c943c2aae4856e4aa49ae40e71\transformed\browser-1.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.browser:browser:1.8.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\5fd828c943c2aae4856e4aa49ae40e71\transformed\browser-1.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.webkit:webkit:1.12.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\09a4e8ad0b6664d35f68e2ee5870df27\transformed\webkit-1.12.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.webkit:webkit:1.12.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\09a4e8ad0b6664d35f68e2ee5870df27\transformed\webkit-1.12.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.window:window:1.2.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\b61292485483c7499e83c4f5c6f9bd1a\transformed\jetified-window-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window:1.2.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\b61292485483c7499e83c4f5c6f9bd1a\transformed\jetified-window-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window-java:1.2.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\3d0412389d2966e83c19c51ceeb7e70b\transformed\jetified-window-java-1.2.0\AndroidManifest.xml:19:5-44
+MERGED from [androidx.window:window-java:1.2.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\3d0412389d2966e83c19c51ceeb7e70b\transformed\jetified-window-java-1.2.0\AndroidManifest.xml:19:5-44
+MERGED from [androidx.fragment:fragment:1.7.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\34b9e8114ed50492479eb875aa77a652\transformed\fragment-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.7.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\34b9e8114ed50492479eb875aa77a652\transformed\fragment-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.8.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\9f8229ee71e2110416b6e261a05d3650\transformed\jetified-activity-1.8.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\9f8229ee71e2110416b6e261a05d3650\transformed\jetified-activity-1.8.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\03c7b3febc932f4073d82a9b01455447\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\03c7b3febc932f4073d82a9b01455447\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\2104f0fea03419252de5cb865bc33137\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\2104f0fea03419252de5cb865bc33137\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\63159449652579a22ad00eeda6a72c63\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\63159449652579a22ad00eeda6a72c63\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\d69b771f4769b70dad1852df9d1e5343\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\d69b771f4769b70dad1852df9d1e5343\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\f2c6006284de8fdbb59e6433bd7df941\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\f2c6006284de8fdbb59e6433bd7df941\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\a6ab75c46c16bb6c7a3c9df5177c45de\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\a6ab75c46c16bb6c7a3c9df5177c45de\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\4f2a8bc6baae5594059dcb4a3fa298d0\transformed\jetified-core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\4f2a8bc6baae5594059dcb4a3fa298d0\transformed\jetified-core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\f69c2d192104035d19d3a649bbec7ef5\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\f69c2d192104035d19d3a649bbec7ef5\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\c0c8717ff98a4860600fb9f4afbc8274\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\c0c8717ff98a4860600fb9f4afbc8274\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\4cefa050b0c4ea9b1f45909d19944071\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\4cefa050b0c4ea9b1f45909d19944071\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\8f08a4fb8a82b417cfcc866aaaa248aa\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\8f08a4fb8a82b417cfcc866aaaa248aa\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\a4def40035927cb6d856303427b50933\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\a4def40035927cb6d856303427b50933\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\47338bbf8f160d000bb980bbb8741b0a\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\47338bbf8f160d000bb980bbb8741b0a\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\6e8db5a03ecfd4c7003ff52b19d087f7\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\6e8db5a03ecfd4c7003ff52b19d087f7\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\ad98be4a1c53e6a1e097edbfc577b62d\transformed\jetified-tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\ad98be4a1c53e6a1e097edbfc577b62d\transformed\jetified-tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\4f34d054faf5cddb02c25f64f9725e9c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\4f34d054faf5cddb02c25f64f9725e9c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\825cc21b33457948f59b2dbf990e6567\transformed\jetified-exoplayer-datasource-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\825cc21b33457948f59b2dbf990e6567\transformed\jetified-exoplayer-datasource-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\85d60d3fa3267e59e5c5afe8fee92a67\transformed\jetified-exoplayer-extractor-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\85d60d3fa3267e59e5c5afe8fee92a67\transformed\jetified-exoplayer-extractor-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\5f3d3362e9f95a7fbceda44ee9afc466\transformed\jetified-exoplayer-decoder-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\5f3d3362e9f95a7fbceda44ee9afc466\transformed\jetified-exoplayer-decoder-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\97656ea1bc974e7a6e7a756e4a7dc6f7\transformed\jetified-exoplayer-database-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\97656ea1bc974e7a6e7a756e4a7dc6f7\transformed\jetified-exoplayer-database-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\e09a5d2042c582f80ad9ae7eb9ce66fa\transformed\jetified-exoplayer-common-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\e09a5d2042c582f80ad9ae7eb9ce66fa\transformed\jetified-exoplayer-common-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\0df862a5e2dddb56997c4d71947dd657\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\0df862a5e2dddb56997c4d71947dd657\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\2b8e54d31a141f3ff6ff893fb8611721\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\2b8e54d31a141f3ff6ff893fb8611721\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\2815729b64a2990afe5a146eebbdb448\transformed\jetified-core-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\2815729b64a2990afe5a146eebbdb448\transformed\jetified-core-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\f4472c37f546a87b0ba32bf3154e395c\transformed\jetified-annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\f4472c37f546a87b0ba32bf3154e395c\transformed\jetified-annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\da50c5b36bbd34a739a2a3b3344ce135\transformed\jetified-relinker-1.4.5\AndroidManifest.xml:5:5-43
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\da50c5b36bbd34a739a2a3b3344ce135\transformed\jetified-relinker-1.4.5\AndroidManifest.xml:5:5-43
+	android:targetSdkVersion
+		INJECTED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\debug\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\debug\AndroidManifest.xml
 activity#io.flutter.plugins.urllauncher.WebViewActivity
-ADDED from [:url_launcher_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-13:74
+ADDED from [:url_launcher_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-11:74
 	android:exported
-		ADDED from [:url_launcher_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+		ADDED from [:url_launcher_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-37
 	android:theme
-		ADDED from [:url_launcher_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-71
+		ADDED from [:url_launcher_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-71
 	android:name
-		ADDED from [:url_launcher_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
-uses-library#androidx.window.extensions
-ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\862f900574f1ff85594dddb260956b71\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
-	android:required
-		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\862f900574f1ff85594dddb260956b71\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
-	android:name
-		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\862f900574f1ff85594dddb260956b71\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
-uses-library#androidx.window.sidecar
-ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\862f900574f1ff85594dddb260956b71\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
-	android:required
-		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\862f900574f1ff85594dddb260956b71\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
-	android:name
-		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\862f900574f1ff85594dddb260956b71\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
-intent#action:name:android.media.browse.MediaBrowserService
-ADDED from [androidx.media2:media2-session:1.2.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\afe748b872577969c553c03462be1642\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:25:9-27:18
-action#android.media.browse.MediaBrowserService
-ADDED from [androidx.media2:media2-session:1.2.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\afe748b872577969c553c03462be1642\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:26:13-79
-	android:name
-		ADDED from [androidx.media2:media2-session:1.2.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\afe748b872577969c553c03462be1642\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:26:21-76
-intent#action:name:androidx.media2.session.MediaSessionService
-ADDED from [androidx.media2:media2-session:1.2.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\afe748b872577969c553c03462be1642\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:28:9-30:18
-action#androidx.media2.session.MediaSessionService
-ADDED from [androidx.media2:media2-session:1.2.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\afe748b872577969c553c03462be1642\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:29:13-82
-	android:name
-		ADDED from [androidx.media2:media2-session:1.2.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\afe748b872577969c553c03462be1642\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:29:21-79
-intent#action:name:androidx.media2.session.MediaLibraryService
-ADDED from [androidx.media2:media2-session:1.2.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\afe748b872577969c553c03462be1642\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:31:9-33:18
-action#androidx.media2.session.MediaLibraryService
-ADDED from [androidx.media2:media2-session:1.2.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\afe748b872577969c553c03462be1642\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:32:13-82
-	android:name
-		ADDED from [androidx.media2:media2-session:1.2.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\afe748b872577969c553c03462be1642\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:32:21-79
+		ADDED from [:url_launcher_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-74
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.android.exoplayer:exoplayer-core:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\15a9b7d4241508eadf9c5386304b9556\transformed\jetified-exoplayer-core-2.18.7\AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\cd026fcca2fcf2f846e76138cc1d7cd1\transformed\jetified-exoplayer-common-2.18.7\AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\cd026fcca2fcf2f846e76138cc1d7cd1\transformed\jetified-exoplayer-common-2.18.7\AndroidManifest.xml:24:5-79
+ADDED from [com.google.android.exoplayer:exoplayer-core:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\7b063859b2a2446f579426dd50d93b94\transformed\jetified-exoplayer-core-2.18.7\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\e09a5d2042c582f80ad9ae7eb9ce66fa\transformed\jetified-exoplayer-common-2.18.7\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\e09a5d2042c582f80ad9ae7eb9ce66fa\transformed\jetified-exoplayer-common-2.18.7\AndroidManifest.xml:24:5-79
 	android:name
-		ADDED from [com.google.android.exoplayer:exoplayer-core:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\15a9b7d4241508eadf9c5386304b9556\transformed\jetified-exoplayer-core-2.18.7\AndroidManifest.xml:24:22-76
+		ADDED from [com.google.android.exoplayer:exoplayer-core:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\7b063859b2a2446f579426dd50d93b94\transformed\jetified-exoplayer-core-2.18.7\AndroidManifest.xml:24:22-76
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.2.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\b61292485483c7499e83c4f5c6f9bd1a\transformed\jetified-window-1.2.0\AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.window:window:1.2.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\b61292485483c7499e83c4f5c6f9bd1a\transformed\jetified-window-1.2.0\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.window:window:1.2.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\b61292485483c7499e83c4f5c6f9bd1a\transformed\jetified-window-1.2.0\AndroidManifest.xml:24:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.2.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\b61292485483c7499e83c4f5c6f9bd1a\transformed\jetified-window-1.2.0\AndroidManifest.xml:26:9-28:40
+	android:required
+		ADDED from [androidx.window:window:1.2.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\b61292485483c7499e83c4f5c6f9bd1a\transformed\jetified-window-1.2.0\AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.window:window:1.2.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\b61292485483c7499e83c4f5c6f9bd1a\transformed\jetified-window-1.2.0\AndroidManifest.xml:27:13-51
 permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.10.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\65c8a202e60a6c8a7f255966fd965a79\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+ADDED from [androidx.core:core:1.13.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\4cefa050b0c4ea9b1f45909d19944071\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
-		ADDED from [androidx.core:core:1.10.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\65c8a202e60a6c8a7f255966fd965a79\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+		ADDED from [androidx.core:core:1.13.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\4cefa050b0c4ea9b1f45909d19944071\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from [androidx.core:core:1.10.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\65c8a202e60a6c8a7f255966fd965a79\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
-permission#com.example.flutter_application_1.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.10.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\65c8a202e60a6c8a7f255966fd965a79\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+		ADDED from [androidx.core:core:1.13.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\4cefa050b0c4ea9b1f45909d19944071\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+permission#com.example.library_front_end.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\4cefa050b0c4ea9b1f45909d19944071\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
-		ADDED from [androidx.core:core:1.10.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\65c8a202e60a6c8a7f255966fd965a79\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+		ADDED from [androidx.core:core:1.13.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\4cefa050b0c4ea9b1f45909d19944071\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from [androidx.core:core:1.10.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\65c8a202e60a6c8a7f255966fd965a79\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+		ADDED from [androidx.core:core:1.13.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\4cefa050b0c4ea9b1f45909d19944071\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
 uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.10.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\65c8a202e60a6c8a7f255966fd965a79\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+ADDED from [androidx.core:core:1.13.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\4cefa050b0c4ea9b1f45909d19944071\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
 	android:name
-		ADDED from [androidx.core:core:1.10.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\65c8a202e60a6c8a7f255966fd965a79\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
-uses-permission#com.example.flutter_application_1.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.10.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\65c8a202e60a6c8a7f255966fd965a79\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+		ADDED from [androidx.core:core:1.13.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\4cefa050b0c4ea9b1f45909d19944071\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+uses-permission#com.example.library_front_end.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\4cefa050b0c4ea9b1f45909d19944071\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
 	android:name
-		ADDED from [androidx.core:core:1.10.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\65c8a202e60a6c8a7f255966fd965a79\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+		ADDED from [androidx.core:core:1.13.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\4cefa050b0c4ea9b1f45909d19944071\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\a4def40035927cb6d856303427b50933\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\6e8db5a03ecfd4c7003ff52b19d087f7\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\6e8db5a03ecfd4c7003ff52b19d087f7\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\a4def40035927cb6d856303427b50933\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\a4def40035927cb6d856303427b50933\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\a4def40035927cb6d856303427b50933\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\a4def40035927cb6d856303427b50933\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\a4def40035927cb6d856303427b50933\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\a4def40035927cb6d856303427b50933\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\a4def40035927cb6d856303427b50933\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92

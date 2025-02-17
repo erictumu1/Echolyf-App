@@ -147,13 +147,19 @@ class _HomescreenState extends State<Homescreen> with TickerProviderStateMixin {
           color: Colors.orange[900],
           child: articles.isEmpty
               ? Center(
-              child: CircularProgressIndicator(
-                color: Colors.orange[900],
-              ))
+            child: CircularProgressIndicator(
+              color: Colors.orange[900],
+            ),
+          )
               : ListView.builder(
               itemCount: articles.length,
               itemBuilder: (context, index) {
                 final article = articles[index];
+
+                // Check if the image URL is not null
+                if (article['urlToImage'] == null) {
+                  return Container();  // Skip rendering this article if no image
+                }
 
                 return Card(
                   margin: EdgeInsets.all(1),
@@ -172,8 +178,7 @@ class _HomescreenState extends State<Homescreen> with TickerProviderStateMixin {
                           ),
                         ),
                       ),
-                      if (article['urlToImage'] != null)
-                        Image.network(article['urlToImage']),
+                      Image.network(article['urlToImage']),  // Image will only be rendered if it exists
                       Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 8.0),
                         child: Text(
@@ -189,8 +194,7 @@ class _HomescreenState extends State<Homescreen> with TickerProviderStateMixin {
                         child: Text(
                           article['publishedAt'] ?? '',
                           style: TextStyle(
-                              fontSize: 14,
-                              color: Colors.orange[900]),
+                              fontSize: 14, color: Colors.orange[900]),
                         ),
                       ),
                       SizedBox(
