@@ -169,23 +169,52 @@ class _HomescreenState extends State<Homescreen> with TickerProviderStateMixin {
                     children: [
                       Padding(
                         padding: EdgeInsets.all(8),
-                        child: Text(
-                          article['title'] ?? '',
-                          style: TextStyle(
-                            fontSize: 18,
-                            fontWeight: FontWeight.bold,
-                            color: Colors.orange[900],
+                        child: Text.rich(
+                          TextSpan(
+                            children: [
+                              TextSpan(
+                                text: article['title'] != null
+                                    ? article['title'].split('-').first.trim()
+                                    : '',
+                                style: TextStyle(
+                                  fontSize: 19,
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.white,
+                                ),
+                              ),
+                              if (article['title'] != null && article['title'].contains('-'))
+                                TextSpan(
+                                  text: ' - ', // Keep the hyphen part with the previous style
+                                  style: TextStyle(
+                                    fontSize: 19,
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.white, // Same color as the first part
+                                  ),
+                                ),
+                              if (article['title'] != null && article['title'].contains('-'))
+                                TextSpan(
+                                  text: '${article['title'].split('-').last.trim()}',
+                                  style: TextStyle(
+                                    fontSize: 19,
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.orange[900],
+                                  ),
+                                ),
+                            ],
                           ),
                         ),
                       ),
-                      Image.network(article['urlToImage']),  // Image will only be rendered if it exists
+                      Image.network(article['urlToImage']),
+                      SizedBox(
+                        height: 10,
+                      ),// Image will only be rendered if it exists
                       Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 8.0),
                         child: Text(
                           article['description'] ?? '',
                           style: TextStyle(
                             fontSize: 16,
-                            color: Colors.white,
+                            color: Colors.grey[400],
                           ),
                         ),
                       ),
@@ -193,12 +222,19 @@ class _HomescreenState extends State<Homescreen> with TickerProviderStateMixin {
                         padding: const EdgeInsets.all(8.0),
                         child: Text(
                           article['publishedAt'] ?? '',
-                          style: TextStyle(
-                              fontSize: 14, color: Colors.orange[900]),
+                          style: TextStyle(fontSize: 14, color: Colors.white),
                         ),
                       ),
                       SizedBox(
                         height: 20.0,
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.fromLTRB(10, 0, 10, 0),
+                        child: Divider(  // Add this Divider after each card
+                          color: Colors.grey[400],  // Set the line color to match the theme
+                          thickness: 2,  // Line thickness
+                          height: 5,  // Space between the divider and the next item
+                        ),
                       ),
                     ],
                   ),
