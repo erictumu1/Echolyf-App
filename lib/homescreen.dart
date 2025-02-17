@@ -172,34 +172,50 @@ class _HomescreenState extends State<Homescreen> with TickerProviderStateMixin {
                         child: Text.rich(
                           TextSpan(
                             children: [
-                              TextSpan(
-                                text: article['title'] != null
-                                    ? article['title'].split('-').first.trim()
-                                    : '',
-                                style: TextStyle(
-                                  fontSize: 19,
-                                  fontWeight: FontWeight.bold,
-                                  color: Colors.white,
-                                ),
-                              ),
-                              if (article['title'] != null && article['title'].contains('-'))
-                                TextSpan(
-                                  text: ' - ', // Keep the hyphen part with the previous style
-                                  style: TextStyle(
-                                    fontSize: 19,
-                                    fontWeight: FontWeight.bold,
-                                    color: Colors.white, // Same color as the first part
-                                  ),
-                                ),
-                              if (article['title'] != null && article['title'].contains('-'))
-                                TextSpan(
-                                  text: '${article['title'].split('-').last.trim()}',
-                                  style: TextStyle(
-                                    fontSize: 19,
-                                    fontWeight: FontWeight.bold,
-                                    color: Colors.orange[900],
-                                  ),
-                                ),
+                              if (article['title'] != null)
+                                ...() {
+                                  String title = article['title'];
+                                  int lastHyphenIndex = title.lastIndexOf('-');
+                                  if (lastHyphenIndex != -1) {
+                                    return [
+                                      TextSpan(
+                                        text: title.substring(0, lastHyphenIndex).trim(),
+                                        style: TextStyle(
+                                          fontSize: 19,
+                                          fontWeight: FontWeight.bold,
+                                          color: Colors.white,
+                                        ),
+                                      ),
+                                      TextSpan(
+                                        text: ' - ', // Keeping the last hyphen as part of formatting
+                                        style: TextStyle(
+                                          fontSize: 19,
+                                          fontWeight: FontWeight.bold,
+                                          color: Colors.white,
+                                        ),
+                                      ),
+                                      TextSpan(
+                                        text: title.substring(lastHyphenIndex + 1).trim(),
+                                        style: TextStyle(
+                                          fontSize: 19,
+                                          fontWeight: FontWeight.bold,
+                                          color: Colors.orange[900],
+                                        ),
+                                      ),
+                                    ];
+                                  } else {
+                                    return [
+                                      TextSpan(
+                                        text: title.trim(),
+                                        style: TextStyle(
+                                          fontSize: 19,
+                                          fontWeight: FontWeight.bold,
+                                          color: Colors.white,
+                                        ),
+                                      ),
+                                    ];
+                                  }
+                                }()
                             ],
                           ),
                         ),
