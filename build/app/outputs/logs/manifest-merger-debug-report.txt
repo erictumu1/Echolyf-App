@@ -36,10 +36,16 @@ MERGED from [:permission_handler_android] C:\Users\ERIC TUMU\Desktop\Echolyf\bui
 MERGED from [:url_launcher_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-14:12
 MERGED from [:webview_flutter_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\webview_flutter_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.media:media:1.7.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\938bc3ae501b04263670d4e01a99e5f4\transformed\media-1.7.0\AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.android.exoplayer:exoplayer-dash:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\bb5ec6eaf8918d7a8a2b04e6e067b636\transformed\jetified-exoplayer-dash-2.18.7\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.exoplayer:exoplayer-hls:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\f6246349c5ed2ace9218a9a473da5ec7\transformed\jetified-exoplayer-hls-2.18.7\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\31e7a32d3f1c357a58906051f2f782bf\transformed\jetified-exoplayer-smoothstreaming-2.18.7\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\7b063859b2a2446f579426dd50d93b94\transformed\jetified-exoplayer-core-2.18.7\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.media3:media3-extractor:1.4.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\cbff75713127e2fe5c223881e336dd34\transformed\jetified-media3-extractor-1.4.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-container:1.4.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\ed028f3f6947f8c23eeacf3b1e808a6a\transformed\jetified-media3-container-1.4.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-datasource:1.4.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\b56c529345b9d6e2ac08d6f3e0521ae4\transformed\jetified-media3-datasource-1.4.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-decoder:1.4.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\75f80b60dcded7ff785c709eb4b3ff53\transformed\jetified-media3-decoder-1.4.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-database:1.4.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\2c409d3d84a24f598a439ce738284696\transformed\jetified-media3-database-1.4.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-common:1.4.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\fb89f0c362a653ee9ecb55124e65a97f\transformed\jetified-media3-common-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media3:media3-exoplayer-dash:1.4.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\189973c0410bec9181d34b46df9d6126\transformed\jetified-media3-exoplayer-dash-1.4.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-exoplayer-hls:1.4.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\42ecccbfe7d0ffab271fa090e08b03db\transformed\jetified-media3-exoplayer-hls-1.4.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-exoplayer-smoothstreaming:1.4.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\b20adfc08bba54ce6914434f70967f33\transformed\jetified-media3-exoplayer-smoothstreaming-1.4.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-exoplayer:1.4.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\dbeb130b3be4e7b62980852999006311\transformed\jetified-media3-exoplayer-1.4.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.browser:browser:1.8.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\5fd828c943c2aae4856e4aa49ae40e71\transformed\browser-1.8.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.webkit:webkit:1.12.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\09a4e8ad0b6664d35f68e2ee5870df27\transformed\webkit-1.12.1\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.window:window:1.2.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\b61292485483c7499e83c4f5c6f9bd1a\transformed\jetified-window-1.2.0\AndroidManifest.xml:17:1-31:12
@@ -63,11 +69,7 @@ MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ERIC TUM
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\6e8db5a03ecfd4c7003ff52b19d087f7\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\ad98be4a1c53e6a1e097edbfc577b62d\transformed\jetified-tracing-1.2.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\4f34d054faf5cddb02c25f64f9725e9c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
-MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\825cc21b33457948f59b2dbf990e6567\transformed\jetified-exoplayer-datasource-2.18.7\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\85d60d3fa3267e59e5c5afe8fee92a67\transformed\jetified-exoplayer-extractor-2.18.7\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\5f3d3362e9f95a7fbceda44ee9afc466\transformed\jetified-exoplayer-decoder-2.18.7\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.exoplayer:exoplayer-database:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\97656ea1bc974e7a6e7a756e4a7dc6f7\transformed\jetified-exoplayer-database-2.18.7\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\e09a5d2042c582f80ad9ae7eb9ce66fa\transformed\jetified-exoplayer-common-2.18.7\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\a30ef5cd84a33bd9e45a89c6544047b8\transformed\exifinterface-1.3.6\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\0df862a5e2dddb56997c4d71947dd657\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\2b8e54d31a141f3ff6ff893fb8611721\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.window.extensions.core:core:1.0.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\2815729b64a2990afe5a146eebbdb448\transformed\jetified-core-1.0.0\AndroidManifest.xml:2:1-7:12
@@ -117,14 +119,26 @@ MERGED from [:webview_flutter_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\
 MERGED from [:webview_flutter_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\webview_flutter_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [androidx.media:media:1.7.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\938bc3ae501b04263670d4e01a99e5f4\transformed\media-1.7.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.media:media:1.7.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\938bc3ae501b04263670d4e01a99e5f4\transformed\media-1.7.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.exoplayer:exoplayer-dash:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\bb5ec6eaf8918d7a8a2b04e6e067b636\transformed\jetified-exoplayer-dash-2.18.7\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-dash:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\bb5ec6eaf8918d7a8a2b04e6e067b636\transformed\jetified-exoplayer-dash-2.18.7\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-hls:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\f6246349c5ed2ace9218a9a473da5ec7\transformed\jetified-exoplayer-hls-2.18.7\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-hls:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\f6246349c5ed2ace9218a9a473da5ec7\transformed\jetified-exoplayer-hls-2.18.7\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\31e7a32d3f1c357a58906051f2f782bf\transformed\jetified-exoplayer-smoothstreaming-2.18.7\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\31e7a32d3f1c357a58906051f2f782bf\transformed\jetified-exoplayer-smoothstreaming-2.18.7\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\7b063859b2a2446f579426dd50d93b94\transformed\jetified-exoplayer-core-2.18.7\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\7b063859b2a2446f579426dd50d93b94\transformed\jetified-exoplayer-core-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media3:media3-extractor:1.4.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\cbff75713127e2fe5c223881e336dd34\transformed\jetified-media3-extractor-1.4.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-extractor:1.4.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\cbff75713127e2fe5c223881e336dd34\transformed\jetified-media3-extractor-1.4.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-container:1.4.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\ed028f3f6947f8c23eeacf3b1e808a6a\transformed\jetified-media3-container-1.4.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-container:1.4.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\ed028f3f6947f8c23eeacf3b1e808a6a\transformed\jetified-media3-container-1.4.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-datasource:1.4.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\b56c529345b9d6e2ac08d6f3e0521ae4\transformed\jetified-media3-datasource-1.4.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-datasource:1.4.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\b56c529345b9d6e2ac08d6f3e0521ae4\transformed\jetified-media3-datasource-1.4.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-decoder:1.4.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\75f80b60dcded7ff785c709eb4b3ff53\transformed\jetified-media3-decoder-1.4.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-decoder:1.4.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\75f80b60dcded7ff785c709eb4b3ff53\transformed\jetified-media3-decoder-1.4.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-database:1.4.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\2c409d3d84a24f598a439ce738284696\transformed\jetified-media3-database-1.4.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-database:1.4.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\2c409d3d84a24f598a439ce738284696\transformed\jetified-media3-database-1.4.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-common:1.4.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\fb89f0c362a653ee9ecb55124e65a97f\transformed\jetified-media3-common-1.4.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-common:1.4.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\fb89f0c362a653ee9ecb55124e65a97f\transformed\jetified-media3-common-1.4.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-exoplayer-dash:1.4.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\189973c0410bec9181d34b46df9d6126\transformed\jetified-media3-exoplayer-dash-1.4.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-exoplayer-dash:1.4.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\189973c0410bec9181d34b46df9d6126\transformed\jetified-media3-exoplayer-dash-1.4.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-exoplayer-hls:1.4.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\42ecccbfe7d0ffab271fa090e08b03db\transformed\jetified-media3-exoplayer-hls-1.4.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-exoplayer-hls:1.4.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\42ecccbfe7d0ffab271fa090e08b03db\transformed\jetified-media3-exoplayer-hls-1.4.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-exoplayer-smoothstreaming:1.4.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\b20adfc08bba54ce6914434f70967f33\transformed\jetified-media3-exoplayer-smoothstreaming-1.4.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-exoplayer-smoothstreaming:1.4.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\b20adfc08bba54ce6914434f70967f33\transformed\jetified-media3-exoplayer-smoothstreaming-1.4.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-exoplayer:1.4.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\dbeb130b3be4e7b62980852999006311\transformed\jetified-media3-exoplayer-1.4.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-exoplayer:1.4.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\dbeb130b3be4e7b62980852999006311\transformed\jetified-media3-exoplayer-1.4.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.browser:browser:1.8.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\5fd828c943c2aae4856e4aa49ae40e71\transformed\browser-1.8.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.browser:browser:1.8.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\5fd828c943c2aae4856e4aa49ae40e71\transformed\browser-1.8.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.webkit:webkit:1.12.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\09a4e8ad0b6664d35f68e2ee5870df27\transformed\webkit-1.12.1\AndroidManifest.xml:5:5-44
@@ -171,16 +185,8 @@ MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\ERIC TUMU\.gradle\caches\t
 MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\ad98be4a1c53e6a1e097edbfc577b62d\transformed\jetified-tracing-1.2.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\4f34d054faf5cddb02c25f64f9725e9c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\4f34d054faf5cddb02c25f64f9725e9c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\825cc21b33457948f59b2dbf990e6567\transformed\jetified-exoplayer-datasource-2.18.7\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\825cc21b33457948f59b2dbf990e6567\transformed\jetified-exoplayer-datasource-2.18.7\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\85d60d3fa3267e59e5c5afe8fee92a67\transformed\jetified-exoplayer-extractor-2.18.7\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\85d60d3fa3267e59e5c5afe8fee92a67\transformed\jetified-exoplayer-extractor-2.18.7\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\5f3d3362e9f95a7fbceda44ee9afc466\transformed\jetified-exoplayer-decoder-2.18.7\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\5f3d3362e9f95a7fbceda44ee9afc466\transformed\jetified-exoplayer-decoder-2.18.7\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-database:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\97656ea1bc974e7a6e7a756e4a7dc6f7\transformed\jetified-exoplayer-database-2.18.7\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-database:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\97656ea1bc974e7a6e7a756e4a7dc6f7\transformed\jetified-exoplayer-database-2.18.7\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\e09a5d2042c582f80ad9ae7eb9ce66fa\transformed\jetified-exoplayer-common-2.18.7\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\e09a5d2042c582f80ad9ae7eb9ce66fa\transformed\jetified-exoplayer-common-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\a30ef5cd84a33bd9e45a89c6544047b8\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\a30ef5cd84a33bd9e45a89c6544047b8\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\0df862a5e2dddb56997c4d71947dd657\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\0df862a5e2dddb56997c4d71947dd657\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\2b8e54d31a141f3ff6ff893fb8611721\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
@@ -204,11 +210,11 @@ ADDED from [:url_launcher_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\url_
 	android:name
 		ADDED from [:url_launcher_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-74
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.android.exoplayer:exoplayer-core:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\7b063859b2a2446f579426dd50d93b94\transformed\jetified-exoplayer-core-2.18.7\AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\e09a5d2042c582f80ad9ae7eb9ce66fa\transformed\jetified-exoplayer-common-2.18.7\AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\e09a5d2042c582f80ad9ae7eb9ce66fa\transformed\jetified-exoplayer-common-2.18.7\AndroidManifest.xml:24:5-79
+ADDED from [androidx.media3:media3-common:1.4.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\fb89f0c362a653ee9ecb55124e65a97f\transformed\jetified-media3-common-1.4.1\AndroidManifest.xml:22:5-79
+MERGED from [androidx.media3:media3-exoplayer:1.4.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\dbeb130b3be4e7b62980852999006311\transformed\jetified-media3-exoplayer-1.4.1\AndroidManifest.xml:22:5-79
+MERGED from [androidx.media3:media3-exoplayer:1.4.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\dbeb130b3be4e7b62980852999006311\transformed\jetified-media3-exoplayer-1.4.1\AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from [com.google.android.exoplayer:exoplayer-core:2.18.7] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\7b063859b2a2446f579426dd50d93b94\transformed\jetified-exoplayer-core-2.18.7\AndroidManifest.xml:24:22-76
+		ADDED from [androidx.media3:media3-common:1.4.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\fb89f0c362a653ee9ecb55124e65a97f\transformed\jetified-media3-common-1.4.1\AndroidManifest.xml:22:22-76
 uses-library#androidx.window.extensions
 ADDED from [androidx.window:window:1.2.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\b61292485483c7499e83c4f5c6f9bd1a\transformed\jetified-window-1.2.0\AndroidManifest.xml:23:9-25:40
 	android:required

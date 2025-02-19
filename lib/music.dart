@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:just_audio/just_audio.dart';
@@ -14,9 +16,16 @@ class Music extends StatefulWidget {
   State<Music> createState() => _MusicState();
 }
 
+// Playback modes
+enum PlaybackMode { normal, repeat, shuffle }
+PlaybackMode playbackMode = PlaybackMode.normal;
+
 class _MusicState extends State<Music> with TickerProviderStateMixin {
   List<dynamic> tracks = [];
   Map<String, dynamic> album = {};
+  int previousTrackIndex = -1;
+  final ScrollController _scrollController = ScrollController();
+
 
   final audioPlayer = AudioPlayer();
   bool isPlaying = false;
@@ -52,22 +61,78 @@ class _MusicState extends State<Music> with TickerProviderStateMixin {
     getsongfiles();
   }
 
+  void previousTrack() {
+    if (previousTrackIndex >= 0) {
+      playTrack(previousTrackIndex, 1);  // Go back to the previous track
+    }
+  }
+
   Future<void> playTrack(int index, int play) async {
+    // Store the current track as the previous track before changing
+    if (currentTrackIndex != index) {
+      previousTrackIndex = currentTrackIndex;
+    }
+
     final track = tracks[index];
     if (track['audio'] != null) {
       try {
         await audioPlayer.setUrl(track['audio']);
-        if(play == 1){
+        if (play == 1) {
           await audioPlayer.play();
         }
         setState(() {
           currentTrackIndex = index;
         });
+
+        // Scroll to the current track when it starts playing
+        _scrollController.animateTo(
+          index * 60.0,  // Multiply by an arbitrary height for each row (60.0 is just an example, adjust based on your design)
+          duration: Duration(milliseconds: 500),
+          curve: Curves.easeInOut,
+        );
+
       } catch (e) {
         print('Error playing audio: $e');
       }
     }
   }
+
+
+
+  void nextTrack() {
+    if (playbackMode == PlaybackMode.shuffle) {
+      int newIndex;
+      do {
+        newIndex = Random().nextInt(tracks.length);
+      } while (newIndex == currentTrackIndex);
+      playTrack(newIndex, 1);
+    } else if (playbackMode == PlaybackMode.repeat) {
+      // Repeat the current track once, then move to next
+      playTrack(currentTrackIndex, 0);  // Play current track again (no immediate play)
+      Future.delayed(Duration(seconds: duration.inSeconds), () {
+        if (currentTrackIndex < tracks.length - 1) {
+          playTrack(currentTrackIndex + 1, 1);  // After the current track ends, go to the next one
+        }
+      });
+    } else {
+      if (currentTrackIndex < tracks.length - 1) {
+        playTrack(currentTrackIndex + 1, 1);  // Normal mode, go to the next track
+      }
+    }
+  }
+
+  void togglePlaybackMode() {
+    setState(() {
+      if (playbackMode == PlaybackMode.normal) {
+        playbackMode = PlaybackMode.repeat;
+      } else if (playbackMode == PlaybackMode.repeat) {
+        playbackMode = PlaybackMode.shuffle;
+      } else {
+        playbackMode = PlaybackMode.normal;
+      }
+    });
+  }
+
 
   Future<void> getsongfiles() async {
     final response = await http.get(Uri.parse(
@@ -109,6 +174,17 @@ class _MusicState extends State<Music> with TickerProviderStateMixin {
     final minutes = twoDigits(duration.inMinutes.remainder(60));
     final seconds = twoDigits(duration.inSeconds.remainder(60));
     return '$minutes:$seconds';
+  }
+
+  IconData getPlaybackIcon() {
+    switch (playbackMode) {
+      case PlaybackMode.repeat:
+        return Icons.repeat_one;
+      case PlaybackMode.shuffle:
+        return Icons.shuffle;
+      default:
+        return Icons.repeat;
+    }
   }
 
   @override
@@ -202,9 +278,7 @@ class _MusicState extends State<Music> with TickerProviderStateMixin {
                                     MainAxisAlignment.spaceBetween,
                                 children: [
                                   IconButton(
-                                    onPressed: currentTrackIndex > 0
-                                        ? () => playTrack(currentTrackIndex - 1,0)
-                                        : null,
+                                    onPressed: () => previousTrack(),
                                     icon: Icon(
                                       Icons.skip_previous,
                                       color: currentTrackIndex > 0
@@ -214,16 +288,20 @@ class _MusicState extends State<Music> with TickerProviderStateMixin {
                                     ),
                                   ),
                                   IconButton(
-                                    onPressed: currentTrackIndex <
-                                            tracks.length - 1
-                                        ? () => playTrack(currentTrackIndex + 1,0)
-                                        : null,
+                                    onPressed: () => togglePlaybackMode(),
+                                    icon: Icon(
+                                      getPlaybackIcon(),
+                                      color: Colors.grey[400],
+                                      size: 40,
+                                    ),
+                                  ),
+                                  IconButton(
+                                    onPressed: () => nextTrack(),
                                     icon: Icon(
                                       Icons.skip_next,
-                                      color:
-                                          currentTrackIndex < tracks.length - 1
-                                              ? Colors.orange[900]
-                                              : Colors.white,
+                                      color: currentTrackIndex < tracks.length - 1
+                                          ? Colors.orange[900]
+                                          : Colors.white,
                                       size: 40,
                                     ),
                                   ),
@@ -234,6 +312,7 @@ class _MusicState extends State<Music> with TickerProviderStateMixin {
                           // Display the list of songs in cards with album image on the left
                           Expanded(
                             child: ListView.builder(
+                              controller: _scrollController,  // Add the controller here
                               itemCount: tracks.length,
                               itemBuilder: (context, index) {
                                 final track = tracks[index];
@@ -248,8 +327,7 @@ class _MusicState extends State<Music> with TickerProviderStateMixin {
                                       height: 50,
                                       decoration: BoxDecoration(
                                         image: DecorationImage(
-                                          image: NetworkImage(
-                                              album['image'] ?? ''),
+                                          image: NetworkImage(album['image'] ?? ''),
                                           fit: BoxFit.cover,
                                         ),
                                       ),
@@ -262,12 +340,12 @@ class _MusicState extends State<Music> with TickerProviderStateMixin {
                                             : Colors.white,
                                       ),
                                     ),
-                                    onTap: () => playTrack(index,1),
+                                    onTap: () => playTrack(index, 1),
                                   ),
                                 );
                               },
                             ),
-                          ),
+                          )
                         ],
                       ),
                     ),

@@ -144,6 +144,17 @@ class _FilesState extends State<Files> with TickerProviderStateMixin {
                                   style: TextStyle(
                                       color: Colors.white, fontSize: 15),
                                 ),
+                                SizedBox(
+                                  height: 20,
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.fromLTRB(0, 0, 0, 0),
+                                  child: Divider(
+                                    color: Colors.grey[400],
+                                    thickness: 2,
+                                    height: 15,
+                                  ),
+                                ),
                               ],
                             ),
                           ),

@@ -202,6 +202,14 @@ class _HomescreenState extends State<Homescreen> with TickerProviderStateMixin {
                                           color: Colors.orange[900],
                                         ),
                                       ),
+                                      TextSpan(
+                                        text: '.',
+                                        style: TextStyle(
+                                          fontSize: 19,
+                                          fontWeight: FontWeight.bold,
+                                          color: Colors.white,
+                                        ),
+                                      ),
                                     ];
                                   } else {
                                     return [
