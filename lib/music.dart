@@ -1,5 +1,4 @@
 import 'dart:math';
-
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:just_audio/just_audio.dart';
@@ -26,7 +25,6 @@ class _MusicState extends State<Music> with TickerProviderStateMixin {
   int previousTrackIndex = -1;
   final ScrollController _scrollController = ScrollController();
 
-
   final audioPlayer = AudioPlayer();
   bool isPlaying = false;
   Duration duration = Duration.zero;
@@ -38,7 +36,7 @@ class _MusicState extends State<Music> with TickerProviderStateMixin {
     super.initState();
     tracks = widget.tracks;
     currentTrackIndex = widget.initialIndex;
-    playTrack(currentTrackIndex,0);
+    playTrack(currentTrackIndex, 0);
 
     audioPlayer.playerStateStream.listen((state) {
       setState(() {
@@ -74,14 +72,16 @@ class _MusicState extends State<Music> with TickerProviderStateMixin {
     }
 
     final track = tracks[index];
-    if (track['audio'] != null) {
+    if (track['preview'] != null) {
       try {
-        await audioPlayer.setUrl(track['audio']);
+        await audioPlayer.setUrl(track['preview']);
         if (play == 1) {
           await audioPlayer.play();
         }
         setState(() {
           currentTrackIndex = index;
+          // Set the album cover for the current track
+          album = track['album'] ?? {};  // Update album info
         });
 
         // Scroll to the current track when it starts playing
@@ -96,7 +96,6 @@ class _MusicState extends State<Music> with TickerProviderStateMixin {
       }
     }
   }
-
 
 
   void nextTrack() {
@@ -133,26 +132,16 @@ class _MusicState extends State<Music> with TickerProviderStateMixin {
     });
   }
 
-
   Future<void> getsongfiles() async {
     final response = await http.get(Uri.parse(
-        'https://api.jamendo.com/v3.0/albums/tracks/?client_id=8d3f4a22&format=jsonpretty&limit=1&artist_name=we+are+fm'));
+        'https://api.deezer.com/artist/1/top?limit=200'));
 
     if (response.statusCode == 200) {
       final jsonresponse = jsonDecode(response.body);
-      final results = jsonresponse['results'];
-
-      album = results[0];
-
-      final List<dynamic> loadedtracks = [];
-      for (var album in results) {
-        if (album['tracks'] != null) {
-          loadedtracks.addAll(album['tracks']);
-        }
-      }
+      final results = jsonresponse['data'];
 
       setState(() {
-        tracks = loadedtracks;
+        tracks = results;
       });
     } else {
       throw Exception('Failed to load files.');
@@ -208,149 +197,153 @@ class _MusicState extends State<Music> with TickerProviderStateMixin {
         ),
         body: tracks.isEmpty
             ? Center(
-                child: CircularProgressIndicator(
-                  color: Colors.orange[900],
-                ),
-              )
+          child: CircularProgressIndicator(
+            color: Colors.orange[900],
+          ),
+        )
             : Column(
-                children: [
-                  SizedBox(
-                    height: 30,
-                  ),
-                  if (album['image'] != null)
-                    Image.network(
-                      album['image'],
-                      // scale: 2,
-                    ),
-                  // Display player controls and song progress
-                  if (tracks.isNotEmpty)
-                    Expanded(
-                      child: Column(
-                        children: [
-                          Column(
+          children: [
+            SizedBox(
+              height: 30,
+            ),
+            if (album.isNotEmpty && album['cover_medium'] != null)
+              Image.network(
+                album['cover_medium'],
+                scale: 1,
+                fit: BoxFit.cover,
+              ),
+            SizedBox(
+              height: 5,
+            ),
+            if (tracks.isNotEmpty)
+              Expanded(
+                child: Column(
+                  children: [
+                    Column(
+                      children: [
+                        IconButton(
+                          onPressed: () async {
+                            if (isPlaying) {
+                              await audioPlayer.pause();
+                            } else {
+                              await audioPlayer.play();
+                            }
+                          },
+                          icon: Icon(
+                            isPlaying ? Icons.pause : Icons.play_arrow,
+                            color: Colors.orange[900],
+                            size: 40,
+                          ),
+                        ),
+                        Slider(
+                          activeColor: Colors.orange[900],
+                          inactiveColor: Colors.white,
+                          min: 0,
+                          max: duration.inSeconds.toDouble(),
+                          value: position.inSeconds.toDouble(),
+                          onChanged: (value) async {
+                            final position =
+                            Duration(seconds: value.toInt());
+                            await audioPlayer.seek(position);
+                          },
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 16.0),
+                          child: Row(
+                            mainAxisAlignment:
+                            MainAxisAlignment.spaceBetween,
                             children: [
-                              IconButton(
-                                onPressed: () async {
-                                  if (isPlaying) {
-                                    await audioPlayer.pause();
-                                  } else {
-                                    await audioPlayer.play();
-                                  }
-                                },
-                                icon: Icon(
-                                  isPlaying ? Icons.pause : Icons.play_arrow,
-                                  color: Colors.orange[900],
-                                  size: 40,
-                                ),
+                              Text(
+                                formatDuration(position),
+                                style: TextStyle(color: Colors.white),
                               ),
-                              Slider(
-                                activeColor: Colors.orange[900],
-                                inactiveColor: Colors.white,
-                                min: 0,
-                                max: duration.inSeconds.toDouble(),
-                                value: position.inSeconds.toDouble(),
-                                onChanged: (value) async {
-                                  final position =
-                                      Duration(seconds: value.toInt());
-                                  await audioPlayer.seek(position);
-                                },
-                              ),
-                              Padding(
-                                padding: const EdgeInsets.symmetric(
-                                    horizontal: 16.0),
-                                child: Row(
-                                  mainAxisAlignment:
-                                      MainAxisAlignment.spaceBetween,
-                                  children: [
-                                    Text(
-                                      formatDuration(position),
-                                      style: TextStyle(color: Colors.white),
-                                    ),
-                                    Text(
-                                      formatDuration(duration - position),
-                                      style: TextStyle(color: Colors.white),
-                                    ),
-                                  ],
-                                ),
-                              ),
-                              Row(
-                                mainAxisAlignment:
-                                    MainAxisAlignment.spaceBetween,
-                                children: [
-                                  IconButton(
-                                    onPressed: () => previousTrack(),
-                                    icon: Icon(
-                                      Icons.skip_previous,
-                                      color: currentTrackIndex > 0
-                                          ? Colors.orange[900]
-                                          : Colors.white,
-                                      size: 40,
-                                    ),
-                                  ),
-                                  IconButton(
-                                    onPressed: () => togglePlaybackMode(),
-                                    icon: Icon(
-                                      getPlaybackIcon(),
-                                      color: Colors.grey[400],
-                                      size: 40,
-                                    ),
-                                  ),
-                                  IconButton(
-                                    onPressed: () => nextTrack(),
-                                    icon: Icon(
-                                      Icons.skip_next,
-                                      color: currentTrackIndex < tracks.length - 1
-                                          ? Colors.orange[900]
-                                          : Colors.white,
-                                      size: 40,
-                                    ),
-                                  ),
-                                ],
+                              Text(
+                                formatDuration(duration - position),
+                                style: TextStyle(color: Colors.white),
                               ),
                             ],
                           ),
-                          // Display the list of songs in cards with album image on the left
-                          Expanded(
-                            child: ListView.builder(
-                              controller: _scrollController,  // Add the controller here
-                              itemCount: tracks.length,
-                              itemBuilder: (context, index) {
-                                final track = tracks[index];
-                                final albums = album[0];
-                                return Card(
-                                  color: currentTrackIndex == index
-                                      ? Colors.orange[900]
-                                      : Colors.black,
-                                  child: ListTile(
-                                    leading: Container(
-                                      width: 50,
-                                      height: 50,
-                                      decoration: BoxDecoration(
-                                        image: DecorationImage(
-                                          image: NetworkImage(album['image'] ?? ''),
-                                          fit: BoxFit.cover,
-                                        ),
-                                      ),
-                                    ),
-                                    title: Text(
-                                      track['name'] ?? 'No name',
-                                      style: TextStyle(
-                                        color: currentTrackIndex == index
-                                            ? Colors.white
-                                            : Colors.white,
-                                      ),
-                                    ),
-                                    onTap: () => playTrack(index, 1),
-                                  ),
-                                );
-                              },
+                        ),
+                        Row(
+                          mainAxisAlignment:
+                          MainAxisAlignment.spaceBetween,
+                          children: [
+                            IconButton(
+                              onPressed: () => previousTrack(),
+                              icon: Icon(
+                                Icons.skip_previous,
+                                color: currentTrackIndex > 0
+                                    ? Colors.orange[900]
+                                    : Colors.white,
+                                size: 40,
+                              ),
                             ),
-                          )
-                        ],
-                      ),
+                            IconButton(
+                              onPressed: () => togglePlaybackMode(),
+                              icon: Icon(
+                                getPlaybackIcon(),
+                                color: Colors.grey[400],
+                                size: 40,
+                              ),
+                            ),
+                            IconButton(
+                              onPressed: () => nextTrack(),
+                              icon: Icon(
+                                Icons.skip_next,
+                                color: currentTrackIndex < tracks.length - 1
+                                    ? Colors.orange[900]
+                                    : Colors.white,
+                                size: 40,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ],
                     ),
-                ],
+                    // Display the list of songs in cards with album image on the left
+                    Expanded(
+                      child: ListView.builder(
+                        controller: _scrollController,  // Add the controller here
+                        itemCount: tracks.length,
+                        itemBuilder: (context, index) {
+                          final track = tracks[index];
+                          return Card(
+                            color: currentTrackIndex == index
+                                ? Colors.orange[900]
+                                : Colors.black,
+                            child: ListTile(
+                              leading: Container(
+                                width: 50,
+                                height: 50,
+                                decoration: BoxDecoration(
+                                  image: DecorationImage(
+                                    image: NetworkImage(
+                                      track['album'] != null ? track['album']['cover_small'] : '',
+                                    ),
+                                    fit: BoxFit.cover,
+                                  ),
+                                ),
+                              ),
+                              title: Text(
+                                track['title'] ?? 'No title',
+                                style: TextStyle(
+                                  color: currentTrackIndex == index
+                                      ? Colors.white
+                                      : Colors.white,
+                                ),
+                              ),
+                              onTap: () => playTrack(index, 1),
+                            ),
+                          );
+                        },
+                      ),
+                    )
+                  ],
+                ),
               ),
+          ],
+        ),
       ),
     );
   }

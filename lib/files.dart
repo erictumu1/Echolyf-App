@@ -22,21 +22,15 @@ class _FilesState extends State<Files> with TickerProviderStateMixin {
 
   Future<void> getsongfiles() async {
     final response = await http.get(Uri.parse(
-        'https://api.jamendo.com/v3.0/albums/tracks/?client_id=8d3f4a22&format=jsonpretty&limit=1&artist_name=we+are+fm'));
+        'https://api.deezer.com/artist/1/top?limit=200')); // Fetch top 200 tracks
 
     if (response.statusCode == 200) {
-      final jsonresponse = jsonDecode(response.body);
-      final results = jsonresponse['results'];
-      final List<dynamic> loadedtracks = [];
-      albums = results;
+      final jsonResponse = jsonDecode(response.body);
+      final List<dynamic> loadedTracks = jsonResponse['data'];
 
-      for (var album in results) {
-        if (album['tracks'] != null) {
-          loadedtracks.addAll(album['tracks']);
-        }
-      }
       setState(() {
-        tracks = loadedtracks;
+        tracks = loadedTracks;
+        albums = loadedTracks.map((track) => track['album']).toList();
       });
     } else {
       throw Exception('Failed to load files.');
@@ -60,9 +54,7 @@ class _FilesState extends State<Files> with TickerProviderStateMixin {
       child: Scaffold(
         backgroundColor: Colors.black,
         appBar: AppBar(
-          leading: BackButton(
-            color: Colors.orange[900],
-          ),
+          leading: BackButton(color: Colors.orange[900]),
           backgroundColor: Colors.black,
           title: Text(
             'Files',
@@ -78,91 +70,97 @@ class _FilesState extends State<Files> with TickerProviderStateMixin {
           color: Colors.orange[900],
           child: tracks.isEmpty
               ? Center(
-                  child: CircularProgressIndicator(
-                    color: Colors.orange[900],
-                  ),
-                )
+            child: CircularProgressIndicator(color: Colors.orange[900]),
+          )
               : ListView.builder(
-                  itemCount: tracks.length,
-                  itemBuilder: (context, index) {
-                    final track = tracks[index];
-                    final album = albums[0];
-                    return Card(
-                      color: Colors.black,
-                      child: Row(
+            itemCount: tracks.length,
+            itemBuilder: (context, index) {
+              final track = tracks[index];
+              final album = albums[index]; // Get corresponding album
+              final albumCover = album['cover_medium'] ?? '';
+              final duration = formatDuration(Duration(seconds: track['duration']));
+
+              return Container(
+                margin: EdgeInsets.symmetric(horizontal: 10, vertical: 5),
+                padding: EdgeInsets.all(10),
+                decoration: BoxDecoration(
+                  color: Colors.grey[900],
+                  borderRadius: BorderRadius.circular(15),
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.black45,
+                      blurRadius: 4,
+                      offset: Offset(0, 2),
+                    ),
+                  ],
+                ),
+                child: Row(
+                  children: [
+                    ClipRRect(
+                      borderRadius: BorderRadius.circular(10),
+                      child: albumCover.isNotEmpty
+                          ? Image.network(
+                        albumCover,
+                        width: 80,
+                        height: 80,
+                        fit: BoxFit.cover,
+                      )
+                          : Icon(
+                        Icons.music_note,
+                        color: Colors.orange[900],
+                        size: 80,
+                      ),
+                    ),
+                    SizedBox(width: 15),
+                    Expanded(
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          if (album['image'] != null)
-                            Image.network(
-                              album['image'],
-                              scale: 2,
+                          Text(
+                            track['title_short'] ?? 'No title',
+                            style: TextStyle(
+                              color: Colors.orange[900],
+                              fontWeight: FontWeight.bold,
+                              fontSize: 18,
                             ),
-                          SizedBox(
-                            width: 10,
+                            maxLines: 1,
+                            overflow: TextOverflow.ellipsis,
                           ),
-                          Expanded(
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Text(
-                                  track['name'] ?? 'No name',
-                                  style: TextStyle(
-                                      color: Colors.orange[900], fontSize: 20),
-                                ),
-                                if (track['audio'] != null)
-                                  IconButton(
-                                    onPressed: () {
-                                      Navigator.push(
-                                          context,
-                                          MaterialPageRoute(
-                                              builder: (context) => Music(
-                                                  tracks: tracks,
-                                                  initialIndex: index)));
-                                    },
-                                    icon: Icon(
-                                      Icons.play_arrow_sharp,
-                                      color: Colors.orange[900],
-                                      size: 25,
-                                    ),
-                                  ),
-                                // Check if the duration is a String and parse it to Duration
-                                if (track['duration'] is String)
-                                  Text(
-                                    'Duration: '
-                                    '${formatDuration(Duration(seconds: int.parse(track['duration'])))}',
-                                    style: TextStyle(
-                                        color: Colors.white, fontSize: 15),
-                                  ),
-                                // If the duration is already a Duration object, use it directly
-                                if (track['duration'] is Duration)
-                                  Text(
-                                    formatDuration(track['duration']),
-                                    style: TextStyle(
-                                        color: Colors.white, fontSize: 15),
-                                  ),
-                                Text(
-                                  'position: ' '${track['position']}',
-                                  style: TextStyle(
-                                      color: Colors.white, fontSize: 15),
-                                ),
-                                SizedBox(
-                                  height: 20,
-                                ),
-                                Padding(
-                                  padding: const EdgeInsets.fromLTRB(0, 0, 0, 0),
-                                  child: Divider(
-                                    color: Colors.grey[400],
-                                    thickness: 2,
-                                    height: 15,
-                                  ),
-                                ),
-                              ],
-                            ),
+                          SizedBox(height: 5),
+                          Text(
+                            'Duration: $duration',
+                            style: TextStyle(color: Colors.white70, fontSize: 14),
+                          ),
+                          Text(
+                            'Position: ${index + 1}',
+                            style: TextStyle(color: Colors.white54, fontSize: 14),
                           ),
                         ],
                       ),
-                    );
-                  },
+                    ),
+                    IconButton(
+                      icon: Icon(
+                        Icons.play_circle_fill,
+                        color: Colors.orange[900],
+                        size: 32,
+                      ),
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => Music(
+                              tracks: tracks,
+                              initialIndex: index,
+                            ),
+                          ),
+                        );
+                      },
+                    ),
+                  ],
                 ),
+              );
+            },
+          ),
         ),
       ),
     );
