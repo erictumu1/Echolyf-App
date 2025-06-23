@@ -230,7 +230,10 @@ class _HomescreenState extends State<Homescreen> with TickerProviderStateMixin {
                           ),
                         ),
                       ),
-                      Image.network(article['urlToImage']),
+                      Image.network(
+                        article['urlToImage'],
+                        errorBuilder: (context, error, stackTrace) => Container(), // This lines removes broken images from the web
+                      ),
                       SizedBox(
                         height: 10,
                       ),// Image will only be rendered if it exists
