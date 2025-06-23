@@ -49,7 +49,6 @@ class _HomescreenState extends State<Homescreen> with TickerProviderStateMixin {
     final response = await http.get(Uri.parse(
         'https://echolyf-app.vercel.app/api/news'));
 
-
     final response1 = await http.get(Uri.parse(
         'https://api.jamendo.com/v3.0/albums/tracks/?client_id=8d3f4a22&format=jsonpretty&limit=1&artist_name=we+are+fm'));
 
