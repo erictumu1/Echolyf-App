@@ -22,7 +22,7 @@ class _FilesState extends State<Files> with TickerProviderStateMixin {
 
   Future<void> getsongfiles() async {
     final response = await http.get(Uri.parse(
-        'https://corsproxy.io/?https://api.deezer.com/artist/1/top?limit=200')); // Fetch top 200 tracks
+        'https://api.deezer.com/artist/1/top?limit=200')); // Fetch top 200 tracks
 
     if (response.statusCode == 200) {
       final jsonResponse = jsonDecode(response.body);

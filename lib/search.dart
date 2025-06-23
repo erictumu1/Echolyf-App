@@ -26,7 +26,7 @@ class _SearchState extends State<Search> with TickerProviderStateMixin {
 
   Future<void> getSongFiles() async {
     final response = await http.get(Uri.parse(
-        'https://corsproxy.io/?https://api.deezer.com/artist/1/top?limit=200'));
+        'https://api.deezer.com/artist/1/top?limit=200'));
 
     if (response.statusCode == 200) {
       final jsonresponse = jsonDecode(response.body);
