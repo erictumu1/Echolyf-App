@@ -46,12 +46,12 @@ class _HomescreenState extends State<Homescreen> with TickerProviderStateMixin {
   }
 
   Future<void> fetchData() async {
-    //Added the corsproxy.io to make it compatible for development
     final response = await http.get(Uri.parse(
-        'https://corsproxy.io/?https://newsapi.org/v2/top-headlines?country=us&apiKey=b0b0bf7ec0384190a044541bf1265050'));
+        'https://echolyf-app.vercel.app/api/news'));
+
 
     final response1 = await http.get(Uri.parse(
-        'https://corsproxy.io/?https://api.jamendo.com/v3.0/albums/tracks/?client_id=8d3f4a22&format=jsonpretty&limit=1&artist_name=we+are+fm'));
+        'https://api.jamendo.com/v3.0/albums/tracks/?client_id=8d3f4a22&format=jsonpretty&limit=1&artist_name=we+are+fm'));
 
     if (response.statusCode == 200) {
       setState(() {
