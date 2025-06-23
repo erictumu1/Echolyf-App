@@ -46,10 +46,8 @@ class _HomescreenState extends State<Homescreen> with TickerProviderStateMixin {
   }
 
   Future<void> fetchData() async {
-
-    final response = await http.get(
-      Uri.parse('https://echolyf-app.vercel.app/api/news'),
-    );
+    final response = await http.get(Uri.parse(
+        'https://newsapi.org/v2/top-headlines?country=us&apiKey=b0b0bf7ec0384190a044541bf1265050'));
 
     final response1 = await http.get(Uri.parse(
         'https://api.jamendo.com/v3.0/albums/tracks/?client_id=8d3f4a22&format=jsonpretty&limit=1&artist_name=we+are+fm'));
@@ -79,7 +77,6 @@ class _HomescreenState extends State<Homescreen> with TickerProviderStateMixin {
   Future<void> refreshdata() async {
     await fetchData();
   }
-
 
   @override
   Widget build(BuildContext context) {
@@ -231,32 +228,7 @@ class _HomescreenState extends State<Homescreen> with TickerProviderStateMixin {
                           ),
                         ),
                       ),
-                      Image.network(
-                        'https://echolyf-app.vercel.app/api/proxy-image?url=${Uri.encodeComponent(article['urlToImage'])}',
-                        fit: BoxFit.cover,
-                        errorBuilder: (context, error, stackTrace) => Container(
-                          height: 200,
-                          color: Colors.grey[800],
-                          child: Center(
-                            child: Icon(Icons.broken_image, color: Colors.grey[400]),
-                          ),
-                        ),
-                        loadingBuilder: (context, child, loadingProgress) {
-                          if (loadingProgress == null) return child;
-                          return Container(
-                            height: 200,
-                            color: Colors.black,
-                            child: Center(
-                              child: CircularProgressIndicator(
-                                color: Colors.orange[900],
-                                value: loadingProgress.expectedTotalBytes != null
-                                    ? loadingProgress.cumulativeBytesLoaded / (loadingProgress.expectedTotalBytes ?? 1)
-                                    : null,
-                              ),
-                            ),
-                          );
-                        },
-                      ),
+                      Image.network(article['urlToImage']),
                       SizedBox(
                         height: 10,
                       ),// Image will only be rendered if it exists
