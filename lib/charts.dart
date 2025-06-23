@@ -24,7 +24,7 @@ class _ChartsState extends State<Charts> {
 
   Future<void> getBsongs() async {
     final response = await http.get(Uri.parse(
-        'https://raw.githubusercontent.com/KoreanThinker/billboard-json/main/billboard-hot-100/recent.json'));
+        'https://corsproxy.io/?https://raw.githubusercontent.com/KoreanThinker/billboard-json/main/billboard-hot-100/recent.json'));
 
     if (response.statusCode == 200) {
       setState(() {
