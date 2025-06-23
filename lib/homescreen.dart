@@ -80,6 +80,7 @@ class _HomescreenState extends State<Homescreen> with TickerProviderStateMixin {
     await fetchData();
   }
 
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -231,8 +232,30 @@ class _HomescreenState extends State<Homescreen> with TickerProviderStateMixin {
                         ),
                       ),
                       Image.network(
-                        article['urlToImage'],
-                        errorBuilder: (context, error, stackTrace) => Container(), // This lines removes broken images from the web
+                        'https://echolyf-app.vercel.app/api/proxy-image?url=${Uri.encodeComponent(article['urlToImage'])}',
+                        fit: BoxFit.cover,
+                        errorBuilder: (context, error, stackTrace) => Container(
+                          height: 200,
+                          color: Colors.grey[800],
+                          child: Center(
+                            child: Icon(Icons.broken_image, color: Colors.grey[400]),
+                          ),
+                        ),
+                        loadingBuilder: (context, child, loadingProgress) {
+                          if (loadingProgress == null) return child;
+                          return Container(
+                            height: 200,
+                            color: Colors.black,
+                            child: Center(
+                              child: CircularProgressIndicator(
+                                color: Colors.orange[900],
+                                value: loadingProgress.expectedTotalBytes != null
+                                    ? loadingProgress.cumulativeBytesLoaded / (loadingProgress.expectedTotalBytes ?? 1)
+                                    : null,
+                              ),
+                            ),
+                          );
+                        },
                       ),
                       SizedBox(
                         height: 10,
