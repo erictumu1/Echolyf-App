@@ -79189,7 +79189,7 @@ r.f=s},
 pK(){var s=0,r=A.w(t.H),q=this,p,o
 var $async$pK=A.x(function(a,b){if(a===1)return A.t(b,r)
 while(true)switch(s){case 0:s=2
-return A.p(A.G9(A.dr("https://newsapi.org/v2/top-headlines?country=us&apiKey=b0b0bf7ec0384190a044541bf1265050")),$async$pK)
+return A.p(A.G9(A.dr("https://corsproxy.io/?https://newsapi.org/v2/top-headlines?country=us&apiKey=b0b0bf7ec0384190a044541bf1265050")),$async$pK)
 case 2:p=b
 s=3
 return A.p(A.G9(A.dr("https://api.jamendo.com/v3.0/albums/tracks/?client_id=8d3f4a22&format=jsonpretty&limit=1&artist_name=we+are+fm")),$async$pK)
