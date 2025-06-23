@@ -13,8 +13,8 @@
 13         to allow setting breakpoints, to provide hot reload, etc.
 14    -->
 15    <uses-permission android:name="android.permission.INTERNET" />
-15-->C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\debug\AndroidManifest.xml:6:5-66
-15-->C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\debug\AndroidManifest.xml:6:22-64
+15-->C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\android\app\src\debug\AndroidManifest.xml:6:5-66
+15-->C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\android\app\src\debug\AndroidManifest.xml:6:22-64
 16    <!--
 17     Required to query activities that can process text, see:
 18         https://developer.android.com/training/package-visibility and
@@ -23,16 +23,16 @@
 21         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
 22    -->
 23    <queries>
-23-->C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\main\AndroidManifest.xml:39:5-44:15
+23-->C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\android\app\src\main\AndroidManifest.xml:39:5-44:15
 24        <intent>
-24-->C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\main\AndroidManifest.xml:40:9-43:18
+24-->C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\android\app\src\main\AndroidManifest.xml:40:9-43:18
 25            <action android:name="android.intent.action.PROCESS_TEXT" />
-25-->C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\main\AndroidManifest.xml:41:13-72
-25-->C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\main\AndroidManifest.xml:41:21-70
+25-->C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\android\app\src\main\AndroidManifest.xml:41:13-72
+25-->C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\android\app\src\main\AndroidManifest.xml:41:21-70
 26
 27            <data android:mimeType="text/plain" />
-27-->C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\main\AndroidManifest.xml:42:13-50
-27-->C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\main\AndroidManifest.xml:42:19-48
+27-->C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\android\app\src\main\AndroidManifest.xml:42:13-50
+27-->C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\android\app\src\main\AndroidManifest.xml:42:19-48
 28        </intent>
 29    </queries>
 30
@@ -94,13 +94,13 @@
 78            android:value="2" />
 79
 80        <activity
-80-->[:url_launcher_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-11:74
+80-->[:url_launcher_android] C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-11:74
 81            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
-81-->[:url_launcher_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-74
+81-->[:url_launcher_android] C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-74
 82            android:exported="false"
-82-->[:url_launcher_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-37
+82-->[:url_launcher_android] C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-37
 83            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-83-->[:url_launcher_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-71
+83-->[:url_launcher_android] C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-71
 84
 85        <uses-library
 85-->[androidx.window:window:1.2.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\b61292485483c7499e83c4f5c6f9bd1a\transformed\jetified-window-1.2.0\AndroidManifest.xml:23:9-25:40

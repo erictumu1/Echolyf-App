@@ -1,0 +1,1 @@
+ C:\\Users\\ERIC\ TUMU\\Desktop\\Projects\\Echolyf\\.dart_tool\\flutter_build\\447b2f16335fa8cb440dda89b8eb4eb9\\native_assets.yaml: 

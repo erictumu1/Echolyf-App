@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 application
-INJECTED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\main\AndroidManifest.xml:2:5-33:19
-INJECTED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\debug\AndroidManifest.xml
-MERGED from [:url_launcher_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-12:19
-MERGED from [:url_launcher_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-12:19
+INJECTED from C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\android\app\src\main\AndroidManifest.xml:2:5-33:19
+INJECTED from C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\android\app\src\debug\AndroidManifest.xml
+MERGED from [:url_launcher_android] C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-12:19
+MERGED from [:url_launcher_android] C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-12:19
 MERGED from [androidx.window:window:1.2.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\b61292485483c7499e83c4f5c6f9bd1a\transformed\jetified-window-1.2.0\AndroidManifest.xml:22:5-29:19
 MERGED from [androidx.window:window:1.2.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\b61292485483c7499e83c4f5c6f9bd1a\transformed\jetified-window-1.2.0\AndroidManifest.xml:22:5-29:19
 MERGED from [androidx.core:core:1.13.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\4cefa050b0c4ea9b1f45909d19944071\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
@@ -17,24 +17,24 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ERIC TUMU\.gradle\
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\4f34d054faf5cddb02c25f64f9725e9c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\4f34d054faf5cddb02c25f64f9725e9c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 	android:extractNativeLibs
-		INJECTED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\android\app\src\debug\AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\4cefa050b0c4ea9b1f45909d19944071\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
 	android:name
-		INJECTED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\android\app\src\main\AndroidManifest.xml
 manifest
-ADDED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\main\AndroidManifest.xml:1:1-45:12
-MERGED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\main\AndroidManifest.xml:1:1-45:12
-INJECTED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\debug\AndroidManifest.xml:1:1-7:12
-INJECTED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\debug\AndroidManifest.xml:1:1-7:12
-INJECTED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\debug\AndroidManifest.xml:1:1-7:12
-MERGED from [:just_audio] C:\Users\ERIC TUMU\Desktop\Echolyf\build\just_audio\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
-MERGED from [:audio_session] C:\Users\ERIC TUMU\Desktop\Echolyf\build\audio_session\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
-MERGED from [:audioplayers_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\audioplayers_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
-MERGED from [:path_provider_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
-MERGED from [:permission_handler_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\permission_handler_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
-MERGED from [:url_launcher_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-14:12
-MERGED from [:webview_flutter_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\webview_flutter_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+ADDED from C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\android\app\src\main\AndroidManifest.xml:1:1-45:12
+MERGED from C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\android\app\src\main\AndroidManifest.xml:1:1-45:12
+INJECTED from C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+MERGED from [:just_audio] C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\build\just_audio\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:audio_session] C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\build\audio_session\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:audioplayers_android] C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\build\audioplayers_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:path_provider_android] C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:permission_handler_android] C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\build\permission_handler_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:url_launcher_android] C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-14:12
+MERGED from [:webview_flutter_android] C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\build\webview_flutter_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.media:media:1.7.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\938bc3ae501b04263670d4e01a99e5f4\transformed\media-1.7.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.media3:media3-extractor:1.4.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\cbff75713127e2fe5c223881e336dd34\transformed\jetified-media3-extractor-1.4.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.media3:media3-container:1.4.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\ed028f3f6947f8c23eeacf3b1e808a6a\transformed\jetified-media3-container-1.4.1\AndroidManifest.xml:17:1-22:12
@@ -76,47 +76,47 @@ MERGED from [androidx.window.extensions.core:core:1.0.0] C:\Users\ERIC TUMU\.gra
 MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\f4472c37f546a87b0ba32bf3154e395c\transformed\jetified-annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
 MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\da50c5b36bbd34a739a2a3b3344ce135\transformed\jetified-relinker-1.4.5\AndroidManifest.xml:2:1-7:12
 	package
-		INJECTED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\android\app\src\debug\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\android\app\src\debug\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\android\app\src\debug\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\main\AndroidManifest.xml:1:11-69
+		ADDED from C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\android\app\src\main\AndroidManifest.xml:1:11-69
 queries
-ADDED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\main\AndroidManifest.xml:39:5-44:15
+ADDED from C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\android\app\src\main\AndroidManifest.xml:39:5-44:15
 intent#action:name:android.intent.action.PROCESS_TEXT+data:mimeType:text/plain
-ADDED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\main\AndroidManifest.xml:40:9-43:18
+ADDED from C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\android\app\src\main\AndroidManifest.xml:40:9-43:18
 action#android.intent.action.PROCESS_TEXT
-ADDED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\main\AndroidManifest.xml:41:13-72
+ADDED from C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\android\app\src\main\AndroidManifest.xml:41:13-72
 	android:name
-		ADDED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\main\AndroidManifest.xml:41:21-70
+		ADDED from C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\android\app\src\main\AndroidManifest.xml:41:21-70
 data
-ADDED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\main\AndroidManifest.xml:42:13-50
+ADDED from C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\android\app\src\main\AndroidManifest.xml:42:13-50
 	android:mimeType
-		ADDED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\main\AndroidManifest.xml:42:19-48
+		ADDED from C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\android\app\src\main\AndroidManifest.xml:42:19-48
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\debug\AndroidManifest.xml:6:5-66
+ADDED from C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\android\app\src\debug\AndroidManifest.xml:6:5-66
 	android:name
-		ADDED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\debug\AndroidManifest.xml:6:22-64
+		ADDED from C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\android\app\src\debug\AndroidManifest.xml:6:22-64
 uses-sdk
-INJECTED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\debug\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\debug\AndroidManifest.xml
-INJECTED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\debug\AndroidManifest.xml
-MERGED from [:just_audio] C:\Users\ERIC TUMU\Desktop\Echolyf\build\just_audio\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:just_audio] C:\Users\ERIC TUMU\Desktop\Echolyf\build\just_audio\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:audio_session] C:\Users\ERIC TUMU\Desktop\Echolyf\build\audio_session\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:audio_session] C:\Users\ERIC TUMU\Desktop\Echolyf\build\audio_session\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:audioplayers_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\audioplayers_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:audioplayers_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\audioplayers_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:path_provider_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:path_provider_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:permission_handler_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\permission_handler_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:permission_handler_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\permission_handler_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:url_launcher_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:url_launcher_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:webview_flutter_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\webview_flutter_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:webview_flutter_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\webview_flutter_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+INJECTED from C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\android\app\src\debug\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\android\app\src\debug\AndroidManifest.xml
+INJECTED from C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\android\app\src\debug\AndroidManifest.xml
+MERGED from [:just_audio] C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\build\just_audio\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:just_audio] C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\build\just_audio\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:audio_session] C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\build\audio_session\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:audio_session] C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\build\audio_session\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:audioplayers_android] C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\build\audioplayers_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:audioplayers_android] C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\build\audioplayers_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler_android] C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\build\permission_handler_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler_android] C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\build\permission_handler_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_android] C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_android] C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:webview_flutter_android] C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\build\webview_flutter_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:webview_flutter_android] C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\build\webview_flutter_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [androidx.media:media:1.7.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\938bc3ae501b04263670d4e01a99e5f4\transformed\media-1.7.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.media:media:1.7.0] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\938bc3ae501b04263670d4e01a99e5f4\transformed\media-1.7.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.media3:media3-extractor:1.4.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\cbff75713127e2fe5c223881e336dd34\transformed\jetified-media3-extractor-1.4.1\AndroidManifest.xml:20:5-44
@@ -198,17 +198,17 @@ MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\ERIC TU
 MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\da50c5b36bbd34a739a2a3b3344ce135\transformed\jetified-relinker-1.4.5\AndroidManifest.xml:5:5-43
 MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\da50c5b36bbd34a739a2a3b3344ce135\transformed\jetified-relinker-1.4.5\AndroidManifest.xml:5:5-43
 	android:targetSdkVersion
-		INJECTED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\android\app\src\debug\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\ERIC TUMU\Desktop\Echolyf\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\android\app\src\debug\AndroidManifest.xml
 activity#io.flutter.plugins.urllauncher.WebViewActivity
-ADDED from [:url_launcher_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-11:74
+ADDED from [:url_launcher_android] C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-11:74
 	android:exported
-		ADDED from [:url_launcher_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-37
+		ADDED from [:url_launcher_android] C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-37
 	android:theme
-		ADDED from [:url_launcher_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-71
+		ADDED from [:url_launcher_android] C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-71
 	android:name
-		ADDED from [:url_launcher_android] C:\Users\ERIC TUMU\Desktop\Echolyf\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-74
+		ADDED from [:url_launcher_android] C:\Users\ERIC TUMU\Desktop\Projects\Echolyf\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-74
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [androidx.media3:media3-common:1.4.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\fb89f0c362a653ee9ecb55124e65a97f\transformed\jetified-media3-common-1.4.1\AndroidManifest.xml:22:5-79
 MERGED from [androidx.media3:media3-exoplayer:1.4.1] C:\Users\ERIC TUMU\.gradle\caches\transforms-3\dbeb130b3be4e7b62980852999006311\transformed\jetified-media3-exoplayer-1.4.1\AndroidManifest.xml:22:5-79

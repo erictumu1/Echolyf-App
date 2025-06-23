@@ -85,6 +85,8 @@ class _HomescreenState extends State<Homescreen> with TickerProviderStateMixin {
         backgroundColor: Colors.black,
         appBar: AppBar(
           backgroundColor: Colors.black,
+          elevation: 0,
+          surfaceTintColor: Colors.black, // This is what makes the app bar black as you are scrolling.
           title: Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
